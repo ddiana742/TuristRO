@@ -494,3 +494,16 @@ C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debu
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\res\drawable\romania4.jpg
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\res\drawable\constanta2.jpg
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\res\drawable\bran.jpg
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\Carbon.Data.Protection.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\Carbon.Packaging.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\Carbon.Storage.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\Carbon.VersionControl.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\Carbon.Versioning.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\GitHub.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\System.Buffers.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\System.Memory.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\System.Text.Encodings.Web.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\System.Text.Json.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll

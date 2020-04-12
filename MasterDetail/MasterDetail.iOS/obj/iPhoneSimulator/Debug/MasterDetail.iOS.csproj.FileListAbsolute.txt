@@ -57,3 +57,14 @@ C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\obj\iPhoneSi
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.exe
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\obj\iPhoneSimulator\Debug\MasterDetail.iOS.pdb
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\ImageCircle.Forms.Plugin.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Carbon.Data.Protection.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Carbon.Packaging.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Carbon.Storage.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Carbon.VersionControl.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Carbon.Versioning.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\GitHub.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\System.Text.Encodings.Web.dll
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail.iOS\bin\iPhoneSimulator\Debug\System.Text.Json.dll

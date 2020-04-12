@@ -3,9 +3,18 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MasterDetail.Android.dll" comes first in this list. */
 		"MasterDetail.Android.dll",
+		"Carbon.Data.Protection.dll",
+		"Carbon.Packaging.dll",
+		"Carbon.Storage.dll",
+		"Carbon.VersionControl.dll",
+		"Carbon.Versioning.dll",
 		"FormsViewGroup.dll",
+		"GitHub.dll",
 		"ImageCircle.Forms.Plugin.dll",
 		"MasterDetail.dll",
+		"Microsoft.Bcl.AsyncInterfaces.dll",
+		"System.Text.Encodings.Web.dll",
+		"System.Text.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

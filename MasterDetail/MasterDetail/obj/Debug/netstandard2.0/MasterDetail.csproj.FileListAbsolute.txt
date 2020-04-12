@@ -10,7 +10,6 @@ C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netsta
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\MasterDetail.dll
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\ref\MasterDetail.dll
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\MasterDetail.pdb
-C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\MasterDetailPage\detail.xaml.g.cs
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\MasterDetailPage\master.xaml.g.cs
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\Meniu\Calendar.xaml.g.cs
@@ -23,3 +22,4 @@ C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netsta
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\Orase\Constanta.xaml.g.cs
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\Orase\Hunedoara.xaml.g.cs
 C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\Orase\Suceava.xaml.g.cs
+C:\Users\MB\source\repos\MasterDetail\MasterDetail\MasterDetail\obj\Debug\netstandard2.0\XamlC.stamp

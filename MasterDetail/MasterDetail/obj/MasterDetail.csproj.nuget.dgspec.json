@@ -42,6 +42,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "GitHub": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDetail.Page1">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2196F3</Color>
+         <!--   <Color x:Key="Accent">#e6f2ff</Color> -->
+            <Color x:Key="LightTextColor">#999999</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        
+        </Grid.RowDefinitions>
+            
+                <!--Constanta -->
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+                    <Label FontSize="22">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+
+                                    <Span Text="Constanta" FontAttributes="Bold" FontSize="22" />
+                                    <Span Text=" " />
+
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                                <Image Source="constanta.jpg" VerticalOptions="Center" HeightRequest="200" />
+                               
+
+                            </ContentView>
+                        </StackLayout>
+                    </StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Unul dintre cele mai vizitate orase din Romania este" />
+                                    <Span Text=" " />
+                                    <Span Text="Constanta" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Button Margin="0,10,0,0" Text="Afla mai mult"
+                        Clicked="Button_Clicked_4" />
+
+                    <!--Hunedoara -->
+
+
+                    <Label FontSize="22">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+
+                                    <Span Text="Hunedoara" FontAttributes="Bold" FontSize="22" />
+                                    <Span Text=" " />
+
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                                <Image Source="hunedoara.jpg" VerticalOptions="Center" HeightRequest="200" />
+
+                            </ContentView>
+                        </StackLayout>
+                    </StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Unul dintre cele mai vizitate orase din Romania este" />
+                                    <Span Text=" " />
+                                    <Span Text="Hunedoara" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Button Margin="0,10,0,0" Text="Afla mai mult"
+                        Clicked="Button_Clicked" />
+                    <!--Brasov -->
+                    <Label FontSize="22">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Brasov" FontAttributes="Bold" FontSize="22" />
+                                    <Span Text=" " />
+
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                                <Image Source="brasov.jpg" VerticalOptions="Center" HeightRequest="200" />
+
+                            </ContentView>
+                        </StackLayout>
+                    </StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Unul dintre cele mai vizitate orase din Romania este" />
+                                    <Span Text=" " />
+                                    <Span Text="Brasov" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button Margin="0,10,0,0" Text="Afla mai mult"
+                        Clicked="Button_Clicked_1" />
+                    <!--Suceava -->
+                    <Label FontSize="22">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Suceava" FontAttributes="Bold" FontSize="22" />
+                                    <Span Text=" " />
+
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                                <Image Source="suceava.jpg" VerticalOptions="Center" HeightRequest="200" />
+
+                            </ContentView>
+                        </StackLayout>
+                    </StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Unul dintre cele mai vizitate orase din Romania este" />
+                                    <Span Text=" " />
+                                    <Span Text="Suceava" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button Margin="0,10,0,0" Text="Afla mai mult"
+                        Clicked="Button_Clicked_2" />
+
+                    <!--Cluj-Napoca -->
+                    <Label FontSize="22">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Cluj-Napoca" FontAttributes="Bold" FontSize="22" />
+                                    <Span Text=" " />
+
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                                <Image Source="cluj.jpg" VerticalOptions="Center" HeightRequest="200" />
+
+                            </ContentView>
+                        </StackLayout>
+                    </StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Unul dintre cele mai vizitate orase din Romania este" />
+                                    <Span Text=" " />
+                                    <Span Text="Cluj-Napoca" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button Margin="0,10,0,0" Text="Afla mai mult"
+                        Clicked="Button_Clicked_3" />
+
+                    <!--Alba-Iulia -->
+                    <Label FontSize="22">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Alba-Iulia" FontAttributes="Bold" FontSize="22" />
+                                    <Span Text=" " />
+
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <StackLayout  VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                                <Image Source="alba.jpg" VerticalOptions="Center" HeightRequest="200"  >
+                                    <Image.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                    Tapped="OnImageNameTapped"
+                                         NumberOfTapsRequired="1" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+
+                            </ContentView>
+                        </StackLayout>
+                    </StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Unul dintre cele mai vizitate orase din Romania este" />
+                                    <Span Text=" " />
+                                    <Span Text="Alba Iulia" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button Margin="0,10,0,0" Text="Afla mai mult"
+                        Clicked="Button_Clicked_5" />
+                </StackLayout>
+            </ScrollView>
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
+
+

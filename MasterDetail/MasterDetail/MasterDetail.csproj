@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Cities2.cs" />
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="ItemDetailPage.cs" />
+    <Compile Remove="ItemDetailPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="ItemDetailPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Meniu\Harti.xaml.cs">
+      <DependentUpon>Harti.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Meniu\Orase.xaml.cs">
+      <DependentUpon>Orase.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Meniu\Calendar.xaml.cs">
+      <DependentUpon>Calendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Orase\Brasov.xaml.cs">
+      <DependentUpon>Brasov.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Orase\Constanta.xaml.cs">
+      <DependentUpon>Constanta.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Orase\Cluj.xaml.cs">
+      <DependentUpon>Cluj.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Orase\Suceava.xaml.cs">
+      <DependentUpon>Suceava.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Orase\Hunedoara.xaml.cs">
+      <DependentUpon>Hunedoara.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Meniu\Obiective.xaml.cs">
+      <DependentUpon>Obiective.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Orase\Hunedoara.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orase\Brasov.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orase\Suceava.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orase\Cluj.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orase\Constanta.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterDetailPage\detail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Meniu\Harti.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterDetailPage\master.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Meniu\Orase.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Meniu\Calendar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orase\AlbaIulia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Meniu\Obiective.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Obiective\" />
+  </ItemGroup>
+</Project>

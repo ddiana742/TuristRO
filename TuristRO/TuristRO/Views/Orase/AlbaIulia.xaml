@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.Views.Orase.AlbaIulia">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit in ALBA-IULIA!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="alba3.jpg" />
+                    <Label Text="" />
+                    <Label Text="  De ce Alba-Iulia?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text=" Istoria, aspectul, culorile, aromele, atmosfera din jur, oamenii care îl pun în valoare sunt culorile care fac povestea fiecărui obiectiv UNICĂ. Se poate să-ţi placă sau nu, dar unicitatea lui rămâne, ca o carte de vizită a locului. După călătoria în judeţul Alba am găsit multe locuri/lucruri unice, la nivel naţional. Sigur, o parte dintre aceste obiective sunt unice în Europa sau în lume! Iată un top pentru lucrurile/locurile unice pe care le poţi descoperi în judeţul Alba!"
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în zonă" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Râpa Roşie" FontAttributes="Bold"/>
+                    <Image Source="rapa.jpg" />
+                    <Label Text="Este unică în ţară prin forma şi culoarea sa. În acelaşi timp, este singura rezervaţie naturală de tip canion, din România.
+Se întinde pe 10 ha şi este o formaţiune geologică de tip “badlands”. O găseşti în apropierea autostrăzii A1, la 3 km de oraşul Sebeş."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    
+                    <!--Alba Carolina-->
+                    <Label Text="Cetatea Alba Carolina" FontAttributes="Bold"/>
+                    <Image Source="carolina.jpg" />
+                    <Label Text="Este cea mai mare cetate din România şi una dintre cele mai importante cetăţi în stil Vauban din Europa. Brandul oraşului Alba Iulia este *Cealaltă Capitală*.
+Promisiunea lui are directă legătură cu Cetatea Alba Carolina:  Bine aţi venit în cea mai mare cetate din România!
+În interiorul cetăţii există multe comori culturale şi arhitecturale."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Gheţarul din Peştera Scărişoara-->
+                    <Label Text="Gheţarul din Peştera Scărişoara" FontAttributes="Bold"/>
+                    <Image Source="scarisoara.jpg" />
+                    <Label Text="După ultimele măsurători este cel mai mare gheţar subteran din lume.
+Are o vechime de 10 500 de ani şi peste 120 000 metri cubi de gheaţă. Grosimea stratului de gheaţă este de 36 de m.
+Dacă nu ai o haină groasă pe tine când intri în peşteră, pregăteşte-te să dârdâi profesionist!"
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Peștera Huda lui Papară-->
+                    <Label Text="Peștera Huda lui Papară" FontAttributes="Bold"/>
+                    <Image Source="huda.jpg" />
+                    <Label Text=" Este peștera din Munții Trascăului care cumulează toate superlativele : cea mai lungă, 
+                           cea mai denivelată, cea mai dificilă, cea mai mare sală, cu cea mai înaltă galerie, cu cel mai lung curs subteran, 
+cu cel mai mare debit, cu cea mai mare cascadă, cu cea mai mare colonie de lilieci din Europa, cu cele mai lungi și mai numeroase excentrite,
+cu cel mai mare depozit de chiropterit din România"
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+              <!--      <Label Text="RatingConception!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                    <Label Text="RatingConception!" 
+           HorizontalOptions="Center"
+           x:Name="index_star"
+           VerticalOptions="CenterAndExpand" />
+
+
+                   <Label Text="RatingConception!" 
+           HorizontalOptions="Center"
+           x:Name="value_star" 
+           VerticalOptions="CenterAndExpand" />
+
+                 <lv:RatingConception ItemsNumber="5" DrawType="Star" 
+                    ImageWidth="35" ImageHeight="35"  DesignType="Standard" ColorUI="YellowLight" 
+                   
+                    x:Name="ratingStar"
+                    Margin="0,15,0,15" Voted="RatingConception_Voted" /> -->
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
+
+
+

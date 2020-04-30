@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.Views.Orase.Brasov">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Brașov!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="brasov2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce Brașov?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Așezat în centrul țării, acolo unde s-au întâlnit dintotdeauna drumurile ce au legat teritoriile istorice românești, 
+Brașovul a fost și rămâne o punte de legătură și de circulație a valorilor materiale și spirituale și o zonă de simbioză între cultura românească și cea a naționalităților conlocuitoare."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Brasov" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Strada Sforii" FontAttributes="Bold"/>
+                    <Image Source="rapa.jpg" />
+                    <Label Text="Intre strazile Cerbului si Poarta Schei exista o strada ca o sfoara, lunga de aproximativ 80 m si lata de pana la 1,35 m. 
+Aceasta a fost restaurata in 2003, pentru a arata exact ca acum 100 de ani. Au avut loc modificari majore asupra pavajului si peretii cladirilor au fost renovati. Stalpii de iluminat au fost 
+schimbati cu unii cu aspect medieval."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Alba Carolina-->
+                    <Label Text="Pestera de Lapte" FontAttributes="Bold"/>
+                    <Image Source="pestera.jpg" />
+                    <Label Text="O drumetie pana la Pestera de Lapte este una dintre cele mai bune idei pentru o escapada de weekend. Traseul pana la pestera este unul mirific si nu o sa va para rau pentru ca in mod clar veti avea ce sa fotografiati. Pestera de Lapte nu este una mica, asa cum probabil ati crede ci este una care are in interior o sala mare pe care intrarea modesta nu o anunta in nici un fel.
+ Aceasta locatie idilica se afla in masivul Postavarul unde se poate ajunge lejer cu mijloacele de transport in comun din Livada Postei apoi pe traseul marcat. Aceasta este o locatie foarte putin vizitata de turisti, insa va spunem ca merita din plin sa dedicati o zi acestui traseu."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Gheţarul din Peştera Scărişoara-->
+                    <Label Text="etatea Râșnov" FontAttributes="Bold"/>
+                    <Image Source="rasnov.jpg" />
+                    <Label Text="Pentru că Transilvania trebuia pazită și pentru că diferitele coline de prim prejurul munților ofereau poziția strategică perfectă pentru așa ceva, în zonă există multe cetăți. La 15 km de Brasov vei găsi Cetatea Râșnov care datează de prin secolul XIV și păstrează chiar bine fortificațiile. Plimbarea printre ruine te face sa ajungi sus de tot, de unde poți admira peisajul extraordinar. Aici se desfășoară și diferite festivaluri precum Festivalul de Film Istoric, Festivalul Medieval sau Rockstadt Extreme Fest."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Peștera Huda lui Papară-->
+                    <Label Text="Parc Aventura" FontAttributes="Bold"/>
+                    <Image Source="aventura.jpg" />
+                    <Label Text="Acesta este cel mai mare Parc de Aventură din Europa de Est. Aici vei găsi 15 trasee de dificultate progresivă, tiroliană, jocuri în copaci, trasee multe și diversificate, pentru începători și pentru avansați. Dacă vrei să petreci o zi de neuitat în Brașov, trebuie să vizitezi Parc Aventura pentru a încerca să îți depășești limitele Traseul cu cea mai mare înălțime ajunge până la 20 de metri."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+         
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

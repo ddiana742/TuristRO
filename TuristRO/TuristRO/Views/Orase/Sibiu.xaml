@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.Views.Orase.Sibiu">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10">
+                    <Label Text="Sibiu" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="alba.jpg" />
+                    <Label Text="" />
+                    <Label Text="  De ce Sibiu?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Alba Iulia este un municipiu din judeţul Alba, situat în partea central-vestică a României, în culoarul Văii Mureşului, pe dreapta râului Mureş, în zona de confluenţă cu râul Ampoi, la poalele sudice ale Dealurilor Aiudului."
+               HorizontalTextAlignment="Center" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text="  Descoperă" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text=" Este o bijuterie culturală și istorică amplasată chiar în inima țării. Aici regăsești o zonă cu un relief magnific și o regiune culturală cu o arhitectură specială.
+Sibiul este un spectacol vizual nemaipomenit, care atrage an de an turiști din toate colțurile lumii, așa că ar fi păcat să nu-l treci pe lista ta cu orașe de vizitat România.
+Muzeul Astra din Parcul Natural Dumbrava Sibiului ar putea fi un bun punct de pornire – vei descoperi aici tradițiile și meșteșugurile din zone rurale și vei putea surprinde în fotografii atmosfera de pace atemporală a locului. Piața Mare și Piața Mică îți vor ocupa o bună parte din zi, până când vei reuși să vizitezi Turnul Sfatului, Podul Minciunilor, apoi te poți îndrepta spre Grădina Zoologică, Piața Huet, Catedrala Evanghelică, iar un popas la Muzeul Brukenthal te va ține fermecat cel puțin jumătate de zi. În restul timpului petrecut în Sibiu, nu uita să vizitezi și Piața Aurarilor, împrejmuită de case viu colorate, Abația Carta, după care te poți destinde în voie în Parcul sub arini.
+"
+                    HorizontalTextAlignment="Center" />
+                    <Label Text=" Mai jos poti sa desscoperi cele mai frumoase obiceiuri si traditii din Sibiu" HorizontalTextAlignment="Center" />
+                    <Label Text="O bună parte din datinile şi obiceiurile din bătrâni se mai păstrează şi astăzi în localităţi din judeţul Sibiu. Strâns legate de anumite sărbători religoase şi ritualuri ancestrale,
+                           aceste obiceiuri se transformă în adevărate spectacole de muzică, dans, port tradiţional, bucătărie locală, îndemânare artistică, creativitate şi joc. Participând la astfel de evenimente veţi 
+                           avea ocazia de a vă apropia de oameni simpli, tradiţiile lor, viaţa lor cotidiană deopotrivă cu bucurii şi necazuri.  " />
+                    <Label Text="" />
+                    <Label Text="  Obiceiuri si traditii" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                 
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

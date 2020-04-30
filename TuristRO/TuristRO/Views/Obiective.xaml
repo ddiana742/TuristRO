@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.Meniu.Obiective" BackgroundColor="#F3FFFD" Title="Obiective turistice">
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar TextChanged="SearchBar_TextChanged"/>
+            <ListView ItemsSource="{Binding List2Collector}" ItemTapped="ListView_ItemTapped" HasUnevenRows="True"  x:Name="ObiectiveListView" >
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                    <ViewCell >
+                        <StackLayout Orientation="Vertical" >
+
+                                <Grid BackgroundColor="#E6F5F3" HeightRequest="10" Padding="20"/>
+                            <StackLayout Orientation="Vertical"  >
+                                    <Label Text="{Binding Nume}" FontSize="Body" HorizontalTextAlignment="Center"  HorizontalOptions="CenterAndExpand"/>
+                            <Image Source="{Binding Imagine}" Aspect="AspectFit" HeightRequest="200"/>
+
+                            <Label Text="{Binding Descriere}" Opacity="0.6" />
+                                </StackLayout>                           
+                            
+                                  
+                            
+                        </StackLayout>
+                    </ViewCell>
+
+                   
+
+                </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
+    <!--
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="Accent">#e6f2ff</Color>
+            <Color x:Key="LightTextColor">#999999</Color>
+        </ResourceDictionary>
+
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+            <ScrollView  Grid.Row="1">
+
+
+                <StackLayout  Orientation="Vertical" Padding="16,40,16,40" Spacing="100" BindableLayout.ItemsSource="{Binding List2Collector}" >
+
+
+                    <BindableLayout.ItemTemplate>
+
+                        <DataTemplate>
+
+
+                            <StackLayout Orientation = "Horizontal"   HeightRequest="150" WidthRequest="80"  >
+                                fundalul albastru
+                                <StackLayout Orientation="Vertical" Margin="0,0,0,0" Padding="0,0,0,0" Spacing="10">
+                                    <Label FontSize="110" VerticalOptions="Center"  Margin="0,10,0,0"  >
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <FormattedString.Spans>
+
+                                                    <Span  Text="{Binding Path= Nume}" FontAttributes="Bold" FontSize="20" />
+
+
+
+
+
+
+                                                </FormattedString.Spans>
+
+                                            </FormattedString>
+                                        </Label.FormattedText>
+
+                                    </Label>
+                                    <Button AutomationId="ID" Margin="0,0,40,0" Text="Afla mai mult" VerticalOptions="EndAndExpand" Clicked="Button_Clicked" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
+
+</ContentPage>
+
+-->
+
+
+
+
+

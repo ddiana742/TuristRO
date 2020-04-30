@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.MasterDetail.MasterPage"
+               Title="Master" BackgroundImageSource="" BackgroundColor="AntiqueWhite"  >
+
+    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+        
+
+                <Image Source="romania2.jpg" HeightRequest="200"/>
+                <Button Text="Orase"   x:Name="orase" Clicked="btnOrase"/>
+                <Button Text="Obiective turistice" x:Name="obiective" Clicked="btnObiective"/>
+                <Button Text="Evenimente"   x:Name="evenimente" Clicked="btnEvenimente"/>
+                <Button Text="LogOut" x:Name="logOut" Clicked="btnLogOut"/>
+         
+
+    </StackLayout>
+</ContentPage>

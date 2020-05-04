@@ -5,11 +5,57 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Obiective.Transfagarasan">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Transfăgărășan" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="transfagarasan2.jpg" />
+                    <Label Text="" />
+
+
+
+                    <Label Text=" Unde il gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Drumul printre nori, așa cum mai este denumit traseul, Transfăgărășanul, măsoară aproximativ 151 km și face parte din DN 7C, drum ce începe din județul Argeș, sat Bascov, de lângă județul Pitești și se intersectează cu DN1
+Citeşte întreaga ştire: Transfăgărășan - traseul spectaculos cu multe locuri de vizitat"
+                    HorizontalTextAlignment="Start" />
+
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="" HorizontalTextAlignment="Center" />
+              
+                    <Image Source="transfagarasan3.jpg" />
+                    <Label Text="Curbele impresionante ale Transfăgărășeanului, idealul oricărui șofer, i-au dus vestea acestui șerpuitor departe de granițele românești. Poate datorită curajului său de a înfrunta fără teamă înalții Munți ai Făgărașului și a uni Muntenia cu Transilvania. "
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                   
+                    <Label Text=" Ce poti sa vizitezi?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Barajul Vidraru" HorizontalTextAlignment="Center" BackgroundColor="Gray" />
+                    <Image Source="vidraru.jpg" />
+                    <Label Text=" Este unul dintre cele mai cunoscute obiective turistice de pe traseul Transfăgărășan construit în 1965, cu o înălțime de peste 160 de metri. Barajul Vidraru este una dintre cele mai impunătoare structuri realizate de mâna omului, cu panorame impresionante pe care nu trebuie să le ratezi."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <Image Source="capra.jpg" />
+                    <Label Text="Cunoscută și sub denumirea de Cascada Iezerului, vei găsi Cascada Capra pe versantul sudic al Făgărașului, la 1960 metri altitudine. Cascada este aprovizionată din lacul glaciar cu același nume și are o cădere de apă de peste 40 de metri."
+                    HorizontalTextAlignment="Start" />
+                   
+
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

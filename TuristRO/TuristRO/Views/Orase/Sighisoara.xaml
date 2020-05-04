@@ -5,11 +5,60 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Sighisoara">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Sighisoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="sighisoara2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce sa vizitezi Sighisoara?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Cetatea medievala a Sighisoarei este legata istoric de tatal lui Vlad Tepes, Vlad Dracul, care a locuit in cetate. 
+Cetatea este construita pe doua etaje, pe cel de sus aflandu-se Biserica din Deal si Scoala, iar la baza fiind cladirile cetatii. Zidul a fost construit in secolul al XIV-lea, avand o inaltime cuprinsa intre 4 si 14 metri, avand din loc in loc turnuri de aparare ce apartin diferitelor bresle mestesugaresti."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Sighisoara" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Turnul cu ceas" FontAttributes="Bold"/>
+                    <Image Source="turnul.jpg" />
+                    <Label Text="Turnul cu ceas, cel mai mare turn al Sighișoarei, cu cei 64 m ai săi datează din secolul XIV. Zidurile sale groase de 2,3 m au oferit siguranța necesară depozitelor de muniții, arhivei și trezoreriei orașului. Intrarea în cetate prin Turnul cu ceas era bine fortificată și aparată de trei porți."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                  
+                    <Label Text="Biserica din deal" FontAttributes="Bold"/>
+                    <Image Source="bisericadeal.jpg" />
+                    <Label Text="Deținătoarea Marelui Premiu Europa Nostra, acordat pentru restaurarea și consolidarea structurală și a premiului UE pentru patrimoniu, Biserica din deal a ajuns la actuala formă în decursul a mai multe secole. Construcția au fost începută în 1345, modificată în 1429 și după finisările interioare a ajuns la o formă finală în 1506. A fost reparată după fiecare stricăciune creată de fenomene naturale, sau atacuri."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                
+                    <Label Text="Casa Vlad Dracul" FontAttributes="Bold"/>
+                    <Image Source="vlad.jpg" />
+                    <Label Text="În Piața Turnului Sfatului se află Casa Vlad Dracul, în care se presupune ca s-a născut Vlad Țepes, numit Dracula. Fiul voievodului Țării Românești Vlad Dracu a fost renumit pentru pedepsele exemplare aplicate adversarilor săi, de unde s-a născut și legenda Dracula. Vlad Țepeș zis Dracula s-a născut în anul 1431."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                 
+                    <Label Text="Biserica Leproșilor" FontAttributes="Bold"/>
+                    <Image Source="bisericaleprosilor.jpg" />
+                    <Label Text="Amplasată în orasul de jos, în afara zidului de apărare, pe malul Târnavei, a făcut parte dintr-un complex format din școală, casa învățătorului și spital pentru leproși, motiv pentru care a fost cunoscută sub denumirea Biserica Leproșilor. Bolnavii nu aveau acces în biserică, preoții catolici oficiau slujba pentru ei de la amvonul exterior, amplasat pe latura vestică."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                  
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

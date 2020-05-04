@@ -6,16 +6,17 @@
              mc:Ignorable="d"
              x:Class="TuristRO.MasterDetail.MasterPage"
                Title="Master" BackgroundImageSource="" BackgroundColor="AntiqueWhite"  >
-
-    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+<!--meniul aplicatiei-->
+    <StackLayout Orientation="Vertical" VerticalOptions="Start"  >
         
 
                 <Image Source="romania2.jpg" HeightRequest="200"/>
-                <Button Text="Orase"   x:Name="orase" Clicked="btnOrase"/>
-                <Button Text="Obiective turistice" x:Name="obiective" Clicked="btnObiective"/>
-                <Button Text="Evenimente"   x:Name="evenimente" Clicked="btnEvenimente"/>
-                <Button Text="LogOut" x:Name="logOut" Clicked="btnLogOut"/>
-         
+                <StackLayout VerticalOptions="Center" WidthRequest="30">
+                    <Button Text="Orase"   x:Name="orase" Clicked="btnOrase" ImageSource="" HeightRequest="50"  />
+                    <Button Text="Obiective turistice" x:Name="obiective" Clicked="btnObiective" ImageSource="" HeightRequest="50"/>
+                    <Button Text="Evenimente"   x:Name="evenimente" Clicked="btnEvenimente" ImageSource="" HeightRequest="50"/>
+                    <Button Text="LogOut" x:Name="logOut" Clicked="btnLogOut" ImageSource="" HeightRequest="50"/>
+                </StackLayout>
 
     </StackLayout>
 </ContentPage>

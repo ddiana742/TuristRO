@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.Views.Obiective.FoculViu">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Rezervaţia naturală Focul Viu" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="foculviu2.jpg" />
+                    <Label Text="" />
+
+
+
+                    <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="În Valea Milcovului, în satul Andreiaşul de Jos, se află o rezervaţie naturală unică în Europa: Focul Viu. Denumit aşa de localnici, datorită flăcărilor ce ies în permanenţă din pământ, fenomenul rar se datorează emanaţiilor de gaze, care, din cauza razelor soarelui, menţin flăcările aprinse."
+                    HorizontalTextAlignment="Start" />
+
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <Label Text=" Despre rezervatie" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="foculviu3.jpg" />
+                    <Label Text="Focurile nestinse sunt legate de zona de fracturi Casin-Bisoca, care faciliteaza iesirea la zi a gazelor emanate de acumularile de hidrocarburi din subsol. Numarul locurilor de iesire a hidrocarburilor nu este fix, ele se schimba pe masura ce apar noi orificii sau se inchid altele. Flacarile cu inaltimi de circa 30-40 cm sunt greu observate ziua, dar noaptea spectacolul acestora este feeric."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+    
+
+
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

@@ -5,11 +5,64 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Cluj">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Cluj-Napoca!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="cluj2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce sa vizitezi Cluj-Napoca?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Cu un trecut deosebit, o atmosferă plină de viață și numeroase atracții turistice inedite, București este una dintre cele mai sigure și mai accesibile destinații din Europa. Turiștii pasionați de arhitectură vor descoperi adevărate comori în acest oraș, începând cu mănăstirile deosebite construite în stilul unic Brâncovenesc și  continuând cu maiestuoasele clădiri construite în stilul modern, contemporan."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Cluj-Napoca" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Piața Unirii și Biserica Sf. Mihail" FontAttributes="Bold"/>
+                    <Image Source="unirii.jpg" />
+                    <Label Text="Acum cunoscută drept Piața Unirii, în trecut locul a constituit miezul orașului medieval Cluj, grupat în jurul Bisericii Sf. Mihail. Piața are cea mai mare dimensiune din vechile piețe ce se află în centrul și sud-estul Europei, aproximativ 220 m pe 160 m, ulterior s-au format și piețe mai mari."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Parcul Central-->
+                    <Label Text="Parcul Central" FontAttributes="Bold"/>
+                    <Image Source="parc.jpg" />
+                    <Label Text="Parcul Central are o vechime de peste 180 de ani și este unul dintre principalele spații verzi din zona centrală a Clujului. Parcul Central este delimitat de Cluj Arena la Vest, Teatrul Maghiar de stat la Est și râul Someșul Mic la Nord. Este obiectivul turistic înscris pe lista monumentelor istorice din Cluj, elaborată de către Ministerul Culturii și Patrimoniului Național din România în anul 2010."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <!--Grădina Botanică-->
+                    <Label Text="Grădina Botanică" FontAttributes="Bold"/>
+                    <Image Source="gradina.jpg" />
+                    <Label Text="În Cluj vei găsi o grădină botanică ce se întinde pe 14 hectare și unde cresc aproximativ 10.000 de categorii specifice. Aici, locația este împărțită pe mai multe compartimente: medicinal, economic, fitogeografic, sistematic și ornamental. Te vor bucura cele peste 100 de specii de lalele, zambile, petunii, narcise, în funcție de sezon, dar și peste 300 de specii de trandafiri și multe alte flori."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Cetățuia-->
+                    <Label Text="Cetățuia" FontAttributes="Bold"/>
+                    <Image Source="cetatuie.jpg" />
+                    <Label Text="Nu poți pleca din Cluj fără să urci pe Cetățuie. Unul dintre cele mai frumoase hoteluri din Cluj, Belvedere, îl vei găsi aici, dar și o priveliște încântătoare și o mulțime de terase. Cetățuia se regăsește pe malul stâng al Someșului și este o fortificație construită în perioada Habsburgică, în vârful dealului Cetățuia. A fost clădită cu ziduri în formă de stea, cu 5 bastioane de colț, 3 porți și șanț de apărare."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Padurea Hoia-Baciu-->
+                    <Label Text="Padurea Hoia-Baciu" FontAttributes="Bold"/>
+                    <Image Source="hoia.jpg" />
+                    <Label Text="Pădurea Hoia-Baciu este unul dintre cele mai faimoase locuri din lume în care se înregistrează fenomene paranormale. Fie că te impresionează legendele și misterele care s-au adunat în jurul ciudatei păduri sau, dimpotrivă, consideri că e o pădure ca oricare alta, locul este suficient de pitoresc pentru a merita atenție din punct de vedere turistic și recreațional."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

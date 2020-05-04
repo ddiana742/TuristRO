@@ -5,11 +5,57 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Obiective.SalinaTurda">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Salina Turda, județul Cluj" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="turda2.jpg" />
+                    <Label Text="" />
+
+
+
+                    <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Turiștii de pretutindeni au confirmat și confirmă în mod constant acest lucru » Salina Turda este unul dintre cele mai spectaculoase obiective turistice subterane din lume. Concepută în zilele noastre ca un muzeu neobișnuit și inedit de istorie a mineritului în sare, mina de sare aflată în zona Durgău – Valea Sărată din Turda datează încă din secolul XVII!"
+                    HorizontalTextAlignment="Start" />
+
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <Label Text=" Ce poti face aici?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="turda3.jpg" />
+                    <Label Text="Ca sarea-n bucate, Salina Turda nu poate lipsi din traseul turiștilor care ajung în zona Clujului sau a Transilvaniei. Câteva dintre atracțiile salinei pentru vizitatori:
+
+    Galeria Franz Josef
+    Mina Iosif – sala ecourilor
+    Sala Crivacului
+    Mina Rudolf
+    Mina Terezia
+    Activități balneare și de agrement: ștrand, SPA, bazin înot, roată, minigolf, bowling, plimbare cu bărcuțe pe lacul subteran, biliard, tenis, etc."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <Label Text=" De neratat.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="turda4.jpg" />
+                    <Label Text="Locul de unde acest zăcământ natural se extrăgea încă de pe vremea romanilor este, în prezent, nu doar o oază de sănătate balneară, ci și o mini-bază de agrement lumina elegant cu teren de sport, amfiteatru, loc de joacă pentru copii, muzeu natural, lac natural care îți permite o plimbare cu barca și altele."
+                    HorizontalTextAlignment="Start" />
+                 
+
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

@@ -5,11 +5,53 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Obiective.Peles">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Castelul Peleș, județul Prahova" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="peles2.jpg" />
+                    <Label Text="" />
+
+
+
+                  
+
+                    <Label Text=" Muzeul, cu o valoare inestimabila, ce cuprinde o valenta istorica, o alta memorialistica si una artistica, constituie o importanta componenta a zestrei culturale a poporului roman."
+                    HorizontalTextAlignment="Start" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <Label Text=" Interiorul.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="peles3.jpg" />
+                    <Label Text="nterioarele castelului sunt la fel de grandioase precum istoria pe care o poarta. Turistii, din pacate, nu au acces decat la 10 din cele 170 de incaperi ale castelului, dar au ocazia sa admire o mare parte din colectiile valoroase de sculpturi, picturi, covoare si mobila, armuri, tapiserii si statuete, vesela din aur si argint, vitralii si obiecte de portelan fin. Fiecare vizita la Castelul Peles iti lasa amintiri placute si memorabile."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                        <Label Text=" Castelul Pelisor" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="pelisor.jpg" />
+                        <Label Text=" Pelisorul, fratele mai mic al celebrei resedinte regale. De la inceput s-a vrut a fi o replica la scara mult mai mica a Castelului Peles, avand doar 99 de incaperi si o destinatie clara: Pelisorul trebuia sa fie resedinta principilor mostenitori Ferdinand si Maria. "
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                   
+                    <Label Text="Interesant si magulitor este faptul ca toata aceasta mobila sculptata a fost realizata in Atelierele de Arta si Meserii de la Sinaia."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

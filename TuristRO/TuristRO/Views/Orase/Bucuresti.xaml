@@ -5,11 +5,64 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Bucuresti">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Bucuresti!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="bucuresti2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce Bucuresti?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Cu un trecut deosebit, o atmosferă plină de viață și numeroase atracții turistice inedite, București este una dintre cele mai sigure și mai accesibile destinații din Europa. Turiștii pasionați de arhitectură vor descoperi adevărate comori în acest oraș, începând cu mănăstirile deosebite construite în stilul unic Brâncovenesc și  continuând cu maiestuoasele clădiri construite în stilul modern, contemporan."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Bucuresti" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Palatul Parlamentului" FontAttributes="Bold"/>
+                    <Image Source="parlament.jpg" />
+                    <Label Text="Una dintre cele mai interesante și mai valoroase clădiri din București este Palatul Parlamentului. Construit în stil brâncovenesc, cu influențe renascentiste, baroce și germanice, acest edificiu grandios te va impresiona prin stilul său arhitectonic și cele peste 1000 de încăperi pe care le include.."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Arcul de Triumf-->
+                    <Label Text="Arcul de Triumf" FontAttributes="Bold"/>
+                    <Image Source="arc.jpg" />
+                    <Label Text="Arcul de Triumf comemorează participarea țării noastre la Primul Război Mondial, în urma căruia teritoriile locuite de români au fost reunite pentru prima oară. Acesta adăpostește și un mic muzeu care poate fi vizitat doar în cazul unor ocazii speciale. Turiștii care reușesc să ajungă în muzeu vor putea admira patru expoziții importante:"
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <!--Parcul Cișmigiu-->
+                    <Label Text="Parcul Cișmigiu" FontAttributes="Bold"/>
+                    <Image Source="cismigiu.jpg" />
+                    <Label Text="Cei pasionați de timpul petrecut în natură, în apropierea lacurilor, vor fi plăcut impresionați să descopere Lacul Cișmigiu, pe care se vor putea plimba cu barca sau cu hidrobicicleta. Tot acolo vei putea admira Grădina de trandafiri agățători, Izvorul lui Eminescu, toate aceste atracții fiind învăluite de aroma deosebită a trandafirilor și magnoliilor."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--Muzeul Țăranului Român-->
+                    <Label Text="Muzeul Țăranului Român" FontAttributes="Bold"/>
+                    <Image Source="muzeu.jpg" />
+                    <Label Text="Clădirea care găzduiește acest muzeu unic a fost construită în stil neo-românesc și a fost declarată monument istoric. Acest adevărat palat al artei te va impresiona prin arhitectura sa unică, prin colecțiile imense de porturi populare originale pe care le găzduiește și prin incintele sale de tip monastic."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <!--PParcul Herăstrău-->
+                    <Label Text="Parcul Herăstrău" FontAttributes="Bold"/>
+                    <Image Source="herastrau.jpg" />
+                    <Label Text="Poți petrece o zi întreagă în Parcul Herăstrău, înconjurat de natură și nu te vei plictisi. Te vei putea plimba cu vaporașul, hidrobicicleta sau barca și vei putea vizita Acvariul Herăstrău. În plus, vei fi impresionat de modul unic în care apa limpede a Lacului Herăstrău reflectă Casa Presei și Sky Tower la apus.  Tot acolo te vei putea plimba și prin Grădina Japoneză, care găzduiește unele dintre cele mai frumoase exemplare din parc, precum cireșii floriferi și salcâmul japonez cu ramuri plângătoare."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

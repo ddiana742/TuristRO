@@ -5,11 +5,61 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Timisoara">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Timisoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="timisoara3.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce Timisoara?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Este un oras multicultural, influentat de diferite comunitati etnice cum ar fi : germana, maghiara, sarba, bulgara, italiana si greaca. Datorita acestora a mustenit diverse oferte culturale, avand ca puncte forte ale orasului peste 12 institutii culturale profesioniste. Din punct de vedere turistic, detine cel mai mare ansamblu de cladiri istorice din Romania cu arhitecturi variate si o multitudine de parcuri ce a adus orasului renumele de Mica Viena."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Timisoara" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Clădirea Palatului Culturii" FontAttributes="Bold"/>
+                    <Image Source="culturii.jpg" />
+                    <Label Text=" Adăpostește astăzi Opera Națională Română și cele trei teatre de stat Teatrul National Mihai Eminescu, Teatrul Maghiar de Stat Csiky Gergely și Teatrul German de Stat (o situație unică și totodată o premieră în Europa). Dacă inițial clădirea avea exteriorul în stil Renaissance, în urma celor două mari incendii din 1880 și 1920, au mai rămas intacte doar aripile. Reconstrucția a fost realizată de arhitectul Duiliu Marcu, stilul original păstrându-se numai pe laterale. La fațada principală și sala de spectacole s-a adoptat stilul neo-bizantin."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+           
+                    <Label Text="Catedrala Mitropolitană" FontAttributes="Bold"/>
+                    <Image Source="catedrala.jpg" />
+                    <Label Text="Marchează cealaltă intrare principală în centrul orașului, fiind dispusă în partea de sud a pieței. Catedrala este fără îndoială una dintre clădirile care îți va atrage privirea indiferent în ce parte a centrului te vei afla, doar este cel mai mare edificiu religios din oraș. Impresionează atât prin arhitectura somptuoasă care îmbină stilul bizantin cu cel moldovenesc cât și prin dimensiunile sale vaste "
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+              
+                    <Label Text="Castelul Huniade (Muzeul Banatului)" FontAttributes="Bold"/>
+                    <Image Source="huniade.jpg" />
+                    <Label Text="Pe lângă interioarele interesante de la parter, mai poți admira în cadrul secției Ştiinţele Naturii (se află la etaj) colecţia de fluturi Dr. F. König, colecţia de păsări împăiate provenind de la renumitul ornitolog Dionisie Linţia (ambele colecţii sunt cele mai mari de acest tip din România) sau dacă ești interesat de arheologie, poți vedea sanctuarul de la Parţa, unicul sanctuar neolitic din România (descoperit la câţiva kilometri sud-vest de Timişoara)."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    
+                    <Label Text="Parcul Rozelor" FontAttributes="Bold"/>
+                    <Image Source="rozelor.jpg" />
+                    <Label Text="Situat în centrul oraşului, la doar câțiva pași de malul râului Bega, Parcul Rozelor reprezintă o altă atracție de renume a Timişoarei. De fapt, s-ar putea spune că faima Timişoarei de oraş al parcurilor sau oraş al trandafirilor este în mare măsură datorată acestui parc."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

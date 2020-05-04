@@ -15,7 +15,7 @@
                 </Grid.RowDefinitions>
 
                 <StackLayout>
-                    <Label Text="EVENTS" FontSize="24" FontAttributes="Bold" TextColor="Black" VerticalOptions="Start"/>
+                    <Label Text="Evenimente muzicale" FontSize="24" FontAttributes="Bold" TextColor="Black" VerticalOptions="Start"/>
                     <ScrollView Grid.Row="1">
                         <CollectionView x:Name="eventList" Grid.Row="1" ItemsLayout="VerticalList" ItemsSource="{Binding}" >
                             <CollectionView.ItemTemplate>

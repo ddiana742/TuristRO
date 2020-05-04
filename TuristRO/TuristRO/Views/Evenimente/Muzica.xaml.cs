@@ -13,14 +13,12 @@ namespace TuristRO.Views.Evenimente
     public partial class Muzica : ContentPage
     {
         public Muzica()
-        {
-            
-            
+        {     
                 InitializeComponent();
                 Setup();
          }
         private List<Event> AllEvents { get; set; }
-
+        //crearea unei liste cu evenimente muzicale
         private List<Event> GetEvents()
         {
             return new List<Event>()
@@ -36,7 +34,7 @@ namespace TuristRO.Views.Evenimente
 
             };
         }
-
+        //setarea evenimentului de countdown
         private void Setup()
         {
             AllEvents = GetEvents();

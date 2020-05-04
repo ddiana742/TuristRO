@@ -5,11 +5,66 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Iasi">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Iasi!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="iasi2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce Iasi?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Iași este centrul cultural, economic și academic al Moldovei. Aici funcționează Universitatea Alexandru Ioan Cuza, una din cele mai prestigioase instituții academice din România, precum și alte patru universități publice și șapte particulare."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Iasi" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Palatul Culturii Iaşi" FontAttributes="Bold"/>
+                    <Image Source="palatul.jpg" />
+                    <Label Text="
+Palatul din centrul Iaşilor, conceput în spiritul palatelor comunale din Europa de Vest, este o îmbinare fericită a mai multor stiluri arhitecturale: neogotic, romantic și neobaroc. Marcând puternic arhitectura vechii capitale a Moldovei, Palatul s-a impus ca o adevarată efigie încă de la apariţia ei în peisajul urbei."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                 
+                    <Label Text="Bojdeuca lui Ion Creangă" FontAttributes="Bold"/>
+                    <Image Source="creanga.jpg" />
+                    <Label Text="In centul parcului Copou, langa Teiul lui Eminescu, se gaseste bustul lui Eminescu cat si bustul vechiului sau prieten Ion Creanga ridicat in 1932. Mai tarziu a fost ridicata Aleea Junimea cu busturile din bronz ale membrilor sai: monumentul poetei Veronica Micle, bustul lui Costache Negruzzi, bustul lui Iacob Negruzzi, bustul lui Gheorghe Panaitescu-Bardasare, bustul lui Constantin Daniel Stahi, bustul lui Nicolae Gane și bustul lui Barbu Ștefănescu-Delavrancea"
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                  
+                    <Label Text="Parcul Copou şi Teiul lui Eminescu" FontAttributes="Bold"/>
+                    <Image Source="tei.jpg" />
+                    <Label Text="In centul parcului Copou, langa Teiul lui Eminescu, se gaseste bustul lui Eminescu cat si bustul vechiului sau prieten Ion Creanga ridicat in 1932. Mai tarziu a fost ridicata Aleea Junimea cu busturile din bronz ale membrilor sai: monumentul poetei Veronica Micle, bustul lui Costache Negruzzi, bustul lui Iacob Negruzzi, bustul lui Gheorghe Panaitescu-Bardasare, bustul lui Constantin Daniel Stahi, bustul lui Nicolae Gane și bustul lui Barbu Ștefănescu-Delavrancea" 
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                   
+                    <Label Text="Gradina Botanica" FontAttributes="Bold"/>
+                    <Image Source="gradinaiasi.jpg" />
+                    <Label Text="Este cea mai mare grădină botanică din România, o oază de linişte şi de frumos. Am avut foarte puţin timp la dispoziţie pentru vizită, înţeleg că este de stat cam 3-4 ore fără să te plictiseşti. Eu m-aş fi lăsat un pic pierdută pe acolo, printre daliile aflate în plină înflorire, plantele aromatice care te ameţeau cu mirosul lor şi colecţiile de cactuşi şi plante exotice."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    
+                 
+                    <Label Text="Turnul cu Ceas" FontAttributes="Bold"/>
+                    <Image Source="turnul.jpg" />
+                    <Label Text="Se află tot în Palatul Culturii, dar se vizitează separat. Pe oră urcă doar un grup de şapte persoane, de aceea este nevoie de programare la începutului zilei (de preferat la zece dimineaţa, pentru siguranţă). Noi am ajuns după ce se terminaseră tururile şi nu am reuşit să îl mai vizităm, am presupus doar că priveliştea asupra Iaşului este de vis. Oricum, ceasul în sine este o capodoperă, care poate fi admirată din exterior."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

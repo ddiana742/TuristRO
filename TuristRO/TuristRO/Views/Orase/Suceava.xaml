@@ -5,11 +5,61 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Suceava">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Suceava!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="suceava2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce Suceava?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Suceava este un punct de start excelent pentru vizitarea numeroaselor manastiri din zona, insa cei mai multi calatori care ajung aici se trezesc prinsi de farmecul orasului si se pierd printre strazi ore intregi, indemnati de bogatia istorica si culturala ce respira prin zidurile cladirilor si sub fiecare pas pe lespezile de piatra."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Suceava" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Muzeul Satului Bucovinean" FontAttributes="Bold"/>
+                    <Image Source="bucovina.jpg" />
+                    <Label Text="In muzeu, vizitatorii pot admira diverse expozitii dedicate culturii locale. Constructiile sunt inspirate din gospodariile taranesti specifice zonei, cu colbie, crasme, fantani, ateliere, diverse tipuri de locuinte specifice anumitor perioade, dar si gospodarii exterioare complet echipate (cu grad, bucatarie de vara, poarta, etc)."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                   
+                    <Label Text="Cetatea de Scaun a Sucevei" FontAttributes="Bold"/>
+                    <Image Source="cetatesuceava.jpg" />
+                    <Label Text="Cetatea este bine conservata, martora a unor vremuri demult apuse, dar ramase vii in inimile romanilor. Se pot vizita incaperi cu diverse scopuri precum inchisoarea, pivnita, capela sau baia de abur, iar in cadrul cetatii au loc expozitii si festivaluri anuale precum festivalul de Arta Medievala Stefan cel Mare."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                  
+                    <Label Text="Monumentul lui Stefan cel Mare" FontAttributes="Bold"/>
+                    <Image Source="stefan.jpg" />
+                    <Label Text="Statuia se afla in Parcul Cetatii si este construita din bronz de catre sculptorul Iftimie Barleanul. Asezata pe o coloana inalta de piatra, statuia il prezinta pe marele voievod moldovean calare pe cal la o inaltime de 8 metri, tronand asupra parcului."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                
+                    <Label Text="Curtea Domneasca" FontAttributes="Bold"/>
+                    <Image Source="curtea.jpg" />
+                    <Label Text="Ruinele de piatra ale Curtii Domnesti se ridica pe acelasi loc in care cercetarile arheologice au descoperit una dintre cele mai vechi curti domnesti din zona, amenajata in timpul domniei lui Petru I Musat. In prezent, vizitatorii orasului, iubitori de istorie veche romaneasca, pot retrai timpuri demult apuse la o plimbare prin jurul Curtii Domnesti din care au ramas, mandre si inalte, ziduri cu o inaltime cuprinsa intre 1 si 5 metri construite in perioada lui Alexandru cel Bun si Stefan cel Mare."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+               
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

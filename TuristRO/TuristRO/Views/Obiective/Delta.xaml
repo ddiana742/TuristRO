@@ -5,11 +5,54 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Obiective.Delta">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Delta Dunării" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="delta2.jpg" />
+                    <Label Text="" />
+
+
+
+                    <Label Text=" De ce sa alegem Delta?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Fie că ai ajuns sau nu în deltă, imaginea pelicanilor care își duc nestingheriți traiul și a nuferilor plutind mândrii pe întinderea apei îți răsfață cu siguranță imaginația. O plimbare de câteva ore în leagănul valurilor de pe brațele Dunării este fix picătura de apă care atinge nisipul deșertului unu suflet citadin, prea adesea epuizat de privațiunile spirituale impuse de un oraș sufocant. "
+                    HorizontalTextAlignment="Start" />
+
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <Label Text=" Ce poti face aici?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="letea.jpg" />
+                    <Label Text="Un loc aparte în flora Deltei îl ocupă Pădurea Letea, una dintre cele mai vechi rezervații naturale din România și cea mai nordică pădure subtropicală din lume. Peisajul de aici este unul deosebit, unde pâlcurile de pădure alternează cu dunele de nisip, formate cândva pe fundul mării. Predomină stejarii, unii dintre ei cu vârste de peste 300 de ani. În pădure se mai pot întâlni și peste 10 specii de orhidee, dar și o specie de liană ce poate ajunge până la 25m."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    <Label Text=" Cand e recomandat sa mergem?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Image Source="delta.jpg" />
+                    <Label Text="Primăvara târzie este cel mai bun anotimp pentru o vizită în Deltă. Păsările se întorc din migrație, peisajul înverzește, iar spre final de mai deja își fac apariția și nuferii. În același timp este prohibiție la pescuit așa că nu este foarte mare aglomerație pe canale și este mult mai liniște."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <Image Source="delta4.jpg" />
+                    <Label Text="În ceea ce privește mamiferele prezente în arealul Deltei, găsim 54 de specii, care pot fi întâlnite preponderent în zonele mai izolate de uscat sau în cele mlăștinoase."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

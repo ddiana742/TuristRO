@@ -16,6 +16,7 @@ namespace TuristRO.MasterDetail
         {
             InitializeComponent();
         }
+        //butoanele care redirectioneaza spre paginile aferente
         private async void btnOrase(object sender, EventArgs e)
         {
             App.MasterDet.IsPresented = false;

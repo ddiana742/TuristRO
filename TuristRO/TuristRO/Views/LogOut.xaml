@@ -5,10 +5,4 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Meniu.LogOut" BackgroundColor="AntiqueWhite">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Evenimente muzicale " FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-            <Button Text="Vezi evenimente" Clicked="Button_Clicked"/>
-        </StackLayout>
-    </ContentPage.Content>
 </ContentPage>

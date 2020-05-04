@@ -15,26 +15,57 @@
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10">
                     <Label Text="Sibiu" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
-                    <Image Source="alba.jpg" />
+                    <Image Source="sibiu1.jpg" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
                     <Label Text="" />
                     <Label Text="  De ce Sibiu?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
-                    <Label Text="Alba Iulia este un municipiu din judeţul Alba, situat în partea central-vestică a României, în culoarul Văii Mureşului, pe dreapta râului Mureş, în zona de confluenţă cu râul Ampoi, la poalele sudice ale Dealurilor Aiudului."
+                    <Label Text="Sibiul este unul dintre orașele cu un nivel foarte ridicat de investiții străine din România.Află în continuare care sunt cele mai importante atracții turistice în Sibiu, reprezentate nu doar de obiective culturale, ci și de restaurante și hoteluri cu o vechime de zeci de ani sau chiar sute de ani."
                HorizontalTextAlignment="Center" LineBreakMode="WordWrap"   />
                     <Label Text="" />
-                    <Label Text="  Descoperă" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-                    <Label Text=" Este o bijuterie culturală și istorică amplasată chiar în inima țării. Aici regăsești o zonă cu un relief magnific și o regiune culturală cu o arhitectură specială.
-Sibiul este un spectacol vizual nemaipomenit, care atrage an de an turiști din toate colțurile lumii, așa că ar fi păcat să nu-l treci pe lista ta cu orașe de vizitat România.
-Muzeul Astra din Parcul Natural Dumbrava Sibiului ar putea fi un bun punct de pornire – vei descoperi aici tradițiile și meșteșugurile din zone rurale și vei putea surprinde în fotografii atmosfera de pace atemporală a locului. Piața Mare și Piața Mică îți vor ocupa o bună parte din zi, până când vei reuși să vizitezi Turnul Sfatului, Podul Minciunilor, apoi te poți îndrepta spre Grădina Zoologică, Piața Huet, Catedrala Evanghelică, iar un popas la Muzeul Brukenthal te va ține fermecat cel puțin jumătate de zi. În restul timpului petrecut în Sibiu, nu uita să vizitezi și Piața Aurarilor, împrejmuită de case viu colorate, Abația Carta, după care te poți destinde în voie în Parcul sub arini.
-"
-                    HorizontalTextAlignment="Center" />
-                    <Label Text=" Mai jos poti sa desscoperi cele mai frumoase obiceiuri si traditii din Sibiu" HorizontalTextAlignment="Center" />
-                    <Label Text="O bună parte din datinile şi obiceiurile din bătrâni se mai păstrează şi astăzi în localităţi din judeţul Sibiu. Strâns legate de anumite sărbători religoase şi ritualuri ancestrale,
-                           aceste obiceiuri se transformă în adevărate spectacole de muzică, dans, port tradiţional, bucătărie locală, îndemânare artistică, creativitate şi joc. Participând la astfel de evenimente veţi 
-                           avea ocazia de a vă apropia de oameni simpli, tradiţiile lor, viaţa lor cotidiană deopotrivă cu bucurii şi necazuri.  " />
-                    <Label Text="" />
-                    <Label Text="  Obiceiuri si traditii" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-                 
+                    <Label Text=" Locuri de vizitat în Sibiu" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Turnul Sfatului" FontAttributes="Bold"/>
+                    <Image Source="sfatului.jpg" />
+                    <Label Text="Situat între cele mai importante două pieţe ale oraşului, mai precis la colţul dinspre miază-noapte – răsărit al Pieţei Mari, Turnul Sfatului a fost din totdeauna simbolul caracteristic al oraşului Sibiu. Pe sub el este un gang de trecere între Piața Mare și Piața Mică."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+               
+                    <Label Text="Podul Minciunilor" FontAttributes="Bold"/>
+                    <Image Source="podul.jpg" />
+                    <Label Text="Podul Minciunilor se numără printre cele mai cunoscute obiective turistice ale Sibiului. Podul Minciunilor sau Podul culcat este un pod metalic, construit în anul 1859 deasupra străzii Ocnei care făcea legătura între Orașul de Jos și Orașul de Sus.
+Din cauza faptului că podul respectiv a fost primul ridicat fără piloni de sprijin, i s-a mai spus şi podul culcat'."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+             
+                    <Label Text="Palatul Brukenthal" FontAttributes="Bold"/>
+                    <Image Source="brukenthal.jpg" />
+                    <Label Text="Palatul Brukenthal adăpostește Galeria de Artă și Biblioteca Muzeului Național Brukenthal, unde se află cele mai valoroase colecții de picturi baroce din centrul și estul Europei.
+Palatul Brukenthal din Sibiu, azi Muzeul Brukenthal, a fost inclus pe Lista monumentelor istorice din județul Sibiu din anul 2015."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                   
+                    <Label Text="Muzeul Civilizației Populare Tradiționale ASTRA" FontAttributes="Bold"/>
+                    <Image Source="astramuzeu.jpg" />
+                    <Label Text="Una dintre atracțiile turistice pe care nu le puteți rata dacă meregeți în în Sibiu este Muzeul Civilizației Populare Tradiționale Astra din Dumbrava Sibiului.
+
+Muzeul ASTRA este al doilea cel mai mare muzeu în aer liber din lume. Format cu sprijinul Asociaţiunii pentru Literatura Română şi Cultura Poporului Român, misiunea Muzeului ASTRA este, de mai bine de 100 de ani, aceea de a conecta audiența cu valorile tradiționale, prin adaptarea continuă la nevoile culturale ale societății."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                  
+                    <Label Text="Muzeul Locomotivelor cu Abur" FontAttributes="Bold"/>
+                    <Image Source="locomotive.jpg" />
+                    <Label Text="Într-un oraș ce vibrează de artă și cultură, Muzeul Locomotivelor cu Abur își găseste loc în apropierea gării CFR. Gara CFR din Sibiu, bineințeles.
+
+Muzeul locomotivelor cu aburi din Sibiu a fost înfiinţat în 28 august 1994.
+
+Acesta cuprinde 41 de locomotive cu aburi, pluguri şi macarale cu aburi care au circulat pe căile ferate din România în urmă cu mai bine de 100 de ani, iar acum se odihnesc pe șinele de cale ferată."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                    
                 </StackLayout>
             </ScrollView>
         </Grid>

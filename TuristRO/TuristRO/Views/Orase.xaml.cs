@@ -17,7 +17,7 @@ namespace TuristRO.Meniu
             BindingContext = new OraseViewModel();
         }
 
-
+        //dechiderea paginii item-ului selectat
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var myselecteditem = e.Item as OraseModels;
@@ -63,7 +63,7 @@ namespace TuristRO.Meniu
             }
             ((ListView)sender).SelectedItem = null;
         }
-
+        //bara de cautare in functie de nume
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             var _container = BindingContext as OraseViewModel;

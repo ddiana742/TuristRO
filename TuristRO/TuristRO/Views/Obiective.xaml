@@ -5,10 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Meniu.Obiective" BackgroundColor="#F3FFFD" Title="Obiective turistice">
-    <ContentPage.Content>
-        <StackLayout>
-            <SearchBar TextChanged="SearchBar_TextChanged"/>
-            <ListView ItemsSource="{Binding List2Collector}" ItemTapped="ListView_ItemTapped" HasUnevenRows="True"  x:Name="ObiectiveListView" >
+    <ContentPage.Content >
+        <StackLayout >
+            <SearchBar TextChanged="SearchBar_TextChanged" />
+            <ListView ItemsSource="{Binding List2Collector}" ItemTapped="ObiectiveListView_ItemTapped" HasUnevenRows="True"  x:Name="ObiectiveListView" >
                 <ListView.ItemTemplate>
                     <DataTemplate >
                     <ViewCell >
@@ -16,8 +16,8 @@
 
                                 <Grid BackgroundColor="#E6F5F3" HeightRequest="10" Padding="20"/>
                             <StackLayout Orientation="Vertical"  >
-                                    <Label Text="{Binding Nume}" FontSize="Body" HorizontalTextAlignment="Center"  HorizontalOptions="CenterAndExpand"/>
-                            <Image Source="{Binding Imagine}" Aspect="AspectFit" HeightRequest="200"/>
+                                    <Label Text="{Binding Nume}" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"  HorizontalOptions="CenterAndExpand"/>
+                            <Image Source="{Binding Imagine}"  HeightRequest="200"/>
 
                             <Label Text="{Binding Descriere}" Opacity="0.6" />
                                 </StackLayout>                           

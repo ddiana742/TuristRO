@@ -28,14 +28,14 @@ Brașovul a fost și rămâne o punte de legătură și de circulație a valoril
                     <Label Text="" />
                     <Label Text=" Locuri de vizitat în Brasov" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Label Text="Strada Sforii" FontAttributes="Bold"/>
-                    <Image Source="rapa.jpg" />
+                    <Image Source="sforii.jpg" />
                     <Label Text="Intre strazile Cerbului si Poarta Schei exista o strada ca o sfoara, lunga de aproximativ 80 m si lata de pana la 1,35 m. 
 Aceasta a fost restaurata in 2003, pentru a arata exact ca acum 100 de ani. Au avut loc modificari majore asupra pavajului si peretii cladirilor au fost renovati. Stalpii de iluminat au fost 
 schimbati cu unii cu aspect medieval."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                    <!--Alba Carolina-->
+                    <!--Pestera de Lapte-->
                     <Label Text="Pestera de Lapte" FontAttributes="Bold"/>
                     <Image Source="pestera.jpg" />
                     <Label Text="O drumetie pana la Pestera de Lapte este una dintre cele mai bune idei pentru o escapada de weekend. Traseul pana la pestera este unul mirific si nu o sa va para rau pentru ca in mod clar veti avea ce sa fotografiati. Pestera de Lapte nu este una mica, asa cum probabil ati crede ci este una care are in interior o sala mare pe care intrarea modesta nu o anunta in nici un fel.
@@ -43,14 +43,14 @@ schimbati cu unii cu aspect medieval."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                    <!--Gheţarul din Peştera Scărişoara-->
-                    <Label Text="etatea Râșnov" FontAttributes="Bold"/>
-                    <Image Source="rasnov.jpg" />
+                    <!--Cetatea Râșnov-->
+                    <Label Text="Cetatea Râșnov" FontAttributes="Bold"/>
+                    <Image Source="rasnov2.jpg" />
                     <Label Text="Pentru că Transilvania trebuia pazită și pentru că diferitele coline de prim prejurul munților ofereau poziția strategică perfectă pentru așa ceva, în zonă există multe cetăți. La 15 km de Brasov vei găsi Cetatea Râșnov care datează de prin secolul XIV și păstrează chiar bine fortificațiile. Plimbarea printre ruine te face sa ajungi sus de tot, de unde poți admira peisajul extraordinar. Aici se desfășoară și diferite festivaluri precum Festivalul de Film Istoric, Festivalul Medieval sau Rockstadt Extreme Fest."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                    <!--Peștera Huda lui Papară-->
+                    <!--Parc Aventura-->
                     <Label Text="Parc Aventura" FontAttributes="Bold"/>
                     <Image Source="aventura.jpg" />
                     <Label Text="Acesta este cel mai mare Parc de Aventură din Europa de Est. Aici vei găsi 15 trasee de dificultate progresivă, tiroliană, jocuri în copaci, trasee multe și diversificate, pentru începători și pentru avansați. Dacă vrei să petreci o zi de neuitat în Brașov, trebuie să vizitezi Parc Aventura pentru a încerca să îți depășești limitele Traseul cu cea mai mare înălțime ajunge până la 20 de metri."

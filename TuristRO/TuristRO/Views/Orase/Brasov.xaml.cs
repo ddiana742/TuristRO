@@ -20,7 +20,7 @@ namespace TuristRO.Views.Orase
         {
             var location = new Location(45.6523093, 25.6102746);
             var options = new MapLaunchOptions { Name = "Brasov" };
-            // var options2 = new MapLaunchOptions { NavigationMode = NavigationMode.Bicycling};
+            var options2 = new MapLaunchOptions { NavigationMode = NavigationMode.Bicycling};
 
             await Map.OpenAsync(location, options);
         }

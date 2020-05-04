@@ -5,11 +5,61 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Orase.Hunedoara">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
+                    <Label Text="Bun venit în Hunedoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Image Source="hunedoara2.jpg" />
+                    <Label Text="" />
+                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="  De ce sa vizitezi Hunedoara?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+
+                    <Label Text="Hunedoara iti ofera de toate atunci cand vine vorba despre turism: istorie, munti, peisaje deosebite, vestigii istorice incluse in Patrimoniul Mondial UNESCO, statiuni montane sau balneare. Asadar, putem spune ca odata ce ai ajuns in aceasta parte a Romaniei, vei dori sa stai cat mai mult timp, deoarece ai extrem de multe lucruri de vizitat."
+               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
+                    <Label Text="" />
+                    <Label Text=" Locuri de vizitat în Hunedoara" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text="Castelul Corvinilor" FontAttributes="Bold"/>
+                    <Image Source="corvinilor.jpg" />
+                    <Label Text="Toată lumea a auzit de celebrul Castel al Corvinilor, cel mai bine conservat monument medival din sud-estul Europei, dar puțini știu că fortificația nu este singura atracție a ansamblului. În curtea exterioară a castelului ridicat pe o stâncă, în secolul al XV-lea, de Iancu de Hunedoara, se află Curtea Husarilor. Aici, turiștii pot vizita o casă a breslelor, un muzeu de istorie și arheologie, dar și o expoziție de tortură, toate amenajate în clădiri vechi din secolul al XVII-lea."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                    <!--Alba Carolina-->
+                    <Label Text="Lacul Cinciș" FontAttributes="Bold"/>
+                    <Image Source="cincis.jpg" />
+                    <Label Text="Cand nivelul apelui este scazut se poate vede ruinele unei fostei biserici.
+Biserica de pe fundul lacului a fost construit in secolul al XIV.-XV.-lea si este foarte importanta din punct de vedere istorica.
+Este foarte importanta pentru arta medievala, prezinta un plan dreptunghiular, cu absida decroşata poligonala, cu unghi in ax.
+Initial tavanita, a fost acoperita cu o bolta semicirculara cu penetratii, decorata cu nervuri de tip gotic tarziu, intretaiate in forma de plasa, carora li se adauga o nervura longitudinala de coama"
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+                  
+                    <Label Text="Biserica Densuş" FontAttributes="Bold"/>
+                    <Image Source="densus.jpg" />
+                    <Label Text="Situată în apropierea capitalei Daciei romane, biserica din Densuş este construită din pietre de râu, cărămizi cu inscripţii romane, pietre funerare, capiteluri şi apeducte romane. Un amestec de stiluri impresionează pe oricine calcă pragul acestei minunate bisericii." 
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+                  
+                    <Label Text="Mănăstirea Prislop" FontAttributes="Bold"/>
+                    <Image Source="prislop.jpg" />
+                    <Label Text="Mănăstirea Prislop este una dintre cele mai importante centre spirituale ale țării noastre, vizitată anual de mii de credincioși. Aici se află mormântul părintelui Arsenie Boca, devenit în ultimii ani un important loc de pelerinaj pentru ortodocşii români. Tot aici este și chilia săpată în stâncă a cuviosului Ioan Sihastrul, dar și icoana făcătoare de minuni a Maicii Domnului, datând din secolul al XVII-lea."
+                    HorizontalTextAlignment="Start" />
+                    <Label Text="" HorizontalTextAlignment="Center" />
+
+              
+
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+
 </ContentPage>

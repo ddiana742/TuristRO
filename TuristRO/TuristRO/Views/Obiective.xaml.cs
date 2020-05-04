@@ -21,7 +21,21 @@ namespace TuristRO.Meniu
             BindingContext = new ObiectiveViewModel();
         }
 
-        private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+    
+        //bara de cautare in functie de nume
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var _container = BindingContext as ObiectiveViewModel;
+            ObiectiveListView.BeginRefresh();
+
+            if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                ObiectiveListView.ItemsSource = _container.List2Collector;
+            else
+                ObiectiveListView.ItemsSource = _container.List2Collector.Where(i => i.Nume.Contains(e.NewTextValue));
+            ObiectiveListView.EndRefresh();
+        }
+        //dechiderea paginii item-ului selectat
+        private async void ObiectiveListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var myselecteditem = e.Item as ObiectiveModels;
             switch (myselecteditem.id)
@@ -33,7 +47,7 @@ namespace TuristRO.Meniu
                     await Navigation.PushAsync(new SfantaAna());
                     break;
                 case 3:
-                    await Navigation.PushAsync(new Voronet());
+                    await Navigation.PushAsync(new FoculViu());
                     break;
                 case 4:
                     await Navigation.PushAsync(new Delta());
@@ -62,18 +76,6 @@ namespace TuristRO.Meniu
 
             }
             ((ListView)sender).SelectedItem = null;
-        }
-
-        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            var _container = BindingContext as ObiectiveViewModel;
-            ObiectiveListView.BeginRefresh();
-
-            if (string.IsNullOrWhiteSpace(e.NewTextValue))
-                ObiectiveListView.ItemsSource = _container.List2Collector;
-            else
-                ObiectiveListView.ItemsSource = _container.List2Collector.Where(i => i.Nume.Contains(e.NewTextValue));
-            ObiectiveListView.EndRefresh();
         }
     }
 }

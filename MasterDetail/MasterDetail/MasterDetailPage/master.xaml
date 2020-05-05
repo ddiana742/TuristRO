@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDetail.master"
+             Title="Master" BackgroundImageSource="" BackgroundColor="AntiqueWhite"  >
+    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+        <Label Text="" />
+        <Image Source="romania2.jpg" HeightRequest="200"/>
+        <Button Text="Orase" x:Name="btnpage1"   Clicked="btnpage1_Clicked"/>
+    <Button Text="Obiective Tursitice" x:Name="btnpage2" Clicked="btnpage2_Clicked"/>
+        <Button Text="Harti" x:Name="btnmaps" Clicked="btnmaps_Clicked"/>
+        <Button Text="Calendar" x:Name="btnsettings" Clicked="btnsettings_Clicked"/>
+    </StackLayout>
+</ContentPage>

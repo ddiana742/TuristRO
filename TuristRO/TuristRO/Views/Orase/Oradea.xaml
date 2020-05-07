@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Iasi!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="oradea2.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce Oradea?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Iași este centrul cultural, economic și academic al Moldovei. Aici funcționează Universitatea Alexandru Ioan Cuza, una din cele mai prestigioase instituții academice din România, precum și alte patru universități publice și șapte particulare."
@@ -59,7 +59,7 @@
                     <Label Text="Toate ca toate, dar vacanța nu este numai despre istorie și cultură, ci și despre distracție, așa că ne-am bucurat mult când am auzit de acest aquapark. Înainte de toate, trebuie să știi că minunăția aceasta este o investiție a primăriei, fiind unul dintre cele mai mari parcuri din această regiune a Europei. Ca punct de reper, ține minte că este localizat chiar lângă Double Tree by Hilton, pe malul Crișului Repede."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
 
                 </StackLayout>

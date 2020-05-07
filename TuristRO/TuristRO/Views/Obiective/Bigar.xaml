@@ -53,6 +53,7 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
 
 

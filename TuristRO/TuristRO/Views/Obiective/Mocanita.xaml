@@ -27,7 +27,7 @@
                     <Label Text="De luni până sâmbătă, din mai și până în octombrie, de 84 de ani, locomotiva Mocănița străbate aceeași 21,6 kilometri între Vișeu și Paltin pentru a transporta lemne și pentru a încânta turiști. "
                     HorizontalTextAlignment="Start" />
 
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Despre Mocanita.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="mocanita3.jpg" />
@@ -40,7 +40,8 @@
                     <Label Text="Valea Vaserului, care măsoară 50 km din Vişeul de Sus până la staţia terminală Comanu, este o vale de o sălbăticie fermecătoare. Traseul Mocăniței pornește de la altitudinea de 400 metri, stația CFF Viseu de Sus și străbate pădurile virgine de-a lungul râului Vaser, traversând poduri și sfredelind tuneluri, printr-o zonă împădurită greu accesibilă, unde nu există drumuri de acces sau așezări omenești și unde animalele sălbatice sunt la ele acasă."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-              
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
+
 
 
 

@@ -27,15 +27,16 @@
                     <Label Text="În Valea Milcovului, în satul Andreiaşul de Jos, se află o rezervaţie naturală unică în Europa: Focul Viu. Denumit aşa de localnici, datorită flăcărilor ce ies în permanenţă din pământ, fenomenul rar se datorează emanaţiilor de gaze, care, din cauza razelor soarelui, menţin flăcările aprinse."
                     HorizontalTextAlignment="Start" />
 
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Despre rezervatie" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="foculviu3.jpg" />
                     <Label Text="Focurile nestinse sunt legate de zona de fracturi Casin-Bisoca, care faciliteaza iesirea la zi a gazelor emanate de acumularile de hidrocarburi din subsol. Numarul locurilor de iesire a hidrocarburilor nu este fix, ele se schimba pe masura ce apar noi orificii sau se inchid altele. Flacarile cu inaltimi de circa 30-40 cm sunt greu observate ziua, dar noaptea spectacolul acestora este feeric."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
-    
+
 
 
 

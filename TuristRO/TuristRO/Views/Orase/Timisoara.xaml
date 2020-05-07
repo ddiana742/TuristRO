@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Timisoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="timisoara3.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce Timisoara?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Este un oras multicultural, influentat de diferite comunitati etnice cum ar fi : germana, maghiara, sarba, bulgara, italiana si greaca. Datorita acestora a mustenit diverse oferte culturale, avand ca puncte forte ale orasului peste 12 institutii culturale profesioniste. Din punct de vedere turistic, detine cel mai mare ansamblu de cladiri istorice din Romania cu arhitecturi variate si o multitudine de parcuri ce a adus orasului renumele de Mica Viena."
@@ -52,7 +52,7 @@
                     <Label Text="Situat în centrul oraşului, la doar câțiva pași de malul râului Bega, Parcul Rozelor reprezintă o altă atracție de renume a Timişoarei. De fapt, s-ar putea spune că faima Timişoarei de oraş al parcurilor sau oraş al trandafirilor este în mare măsură datorată acestui parc."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
 
 

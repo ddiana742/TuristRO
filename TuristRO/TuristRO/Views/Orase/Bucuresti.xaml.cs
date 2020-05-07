@@ -29,5 +29,8 @@ namespace TuristRO.Views.Orase
         {
             await NavigateToBuilding25();
         }
+        private async void favorite_Clicked(object sender, EventArgs e) => await Navigation.PushAsync(new Favorite());
+
     }
+
 }

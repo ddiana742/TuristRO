@@ -27,8 +27,8 @@
                     <Label Text="Nu zicem doar că, ajuns aici, te vei putea scălda în singurul lac vulcanic din Europa Centrală, aflat la aproape 1000 de metri altitudine, pentru că dacă știi despre ce vorbim, ne vei da dreptate când spunem că o călătorie în Ținutul Secuiesc echivalează cu o călătorie peste graniță."
                     HorizontalTextAlignment="Start" />
  <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-                    <Label Text="Lacul Sfânta Ana se găsește la aproximativ 17 kilometri de Băile Tușnad și este singurul lac vulcanic de pe teritoriul României. Acesta s-a format pe fundul craterului vulcanului stins din Masivul Ciomatu." HorizontalTextAlignment="Center" />              
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Label Text="Lacul Sfânta Ana se găsește la aproximativ 17 kilometri de Băile Tușnad și este singurul lac vulcanic de pe teritoriul României. Acesta s-a format pe fundul craterului vulcanului stins din Masivul Ciomatu." HorizontalTextAlignment="Center" />
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     
                     <Label Text=" Scurt Istoric.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="sfana3.jpg" />
@@ -43,6 +43,7 @@
                     <Label Text="Lacul are și câteva motive pentru care oamenii să-și pună semne de întrebare. Cum ar fi că nivelul apei nu scade niciodată chiar dacă lacul nu are izvoare, fiind alimentat doar de precipitații. Puritatea apei este foarte asemănătoare cu apa distilată. Locuitorii nu au nevoie de prognoze meteo deoarece în muntele de lângă lac există două fisuri și aceștia spun că dacă vine ploaia aerul emanat de acelea pișcă la nas. Acest eveniment a fost demonstrat științific și a reieșit faptul că în zonă există o activitate post – vulcanică sensibilă la schimbarea atmosferică. O presiune scăzută duce la urcarea bioxidului de carbon și a sulfului spre suprafață."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
 
 

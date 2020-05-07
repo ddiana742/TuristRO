@@ -41,22 +41,22 @@ namespace TuristRO.Meniu
             switch (myselecteditem.id)
             {
                 case 1:
-                    await Navigation.PushAsync(new CascadaCailor());
+                    await Navigation.PushAsync(new Delta());
                     break;
                 case 2:
-                    await Navigation.PushAsync(new SfantaAna());
+                    await Navigation.PushAsync(new Bigar());
                     break;
                 case 3:
                     await Navigation.PushAsync(new FoculViu());
                     break;
                 case 4:
-                    await Navigation.PushAsync(new Delta());
+                    await Navigation.PushAsync(new Mocanita());
                     break;
                 case 5:
                     await Navigation.PushAsync(new Transfagarasan());
                     break;
                 case 6:
-                    await Navigation.PushAsync(new Bigar());
+                    await Navigation.PushAsync(new SfantaAna());
                     break;
                 case 7:
                     await Navigation.PushAsync(new CimitirulVesel());
@@ -71,7 +71,7 @@ namespace TuristRO.Meniu
                     await Navigation.PushAsync(new Peles());
                     break;
                 case 11:
-                    await Navigation.PushAsync(new Mocanita());
+                    await Navigation.PushAsync(new CascadaCailor());
                     break;
 
             }

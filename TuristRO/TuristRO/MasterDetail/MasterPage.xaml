@@ -15,8 +15,9 @@
                     <Button Text="Orase"   x:Name="orase" Clicked="btnOrase" ImageSource="" HeightRequest="50"  />
                     <Button Text="Obiective turistice" x:Name="obiective" Clicked="btnObiective" ImageSource="" HeightRequest="50"/>
                     <Button Text="Evenimente"   x:Name="evenimente" Clicked="btnEvenimente" ImageSource="" HeightRequest="50"/>
-                    <Button Text="LogOut" x:Name="logOut" Clicked="btnLogOut" ImageSource="" HeightRequest="50"/>
-                </StackLayout>
+                     <Button Text="Favorite" x:Name="favorite" Clicked="favorite_Clicked" ImageSource="" HeightRequest="50"/>
+                  <!--  <Button Text="LogOut" x:Name="logOut" Clicked="btnLogOut" ImageSource="" HeightRequest="50"/> -->
+        </StackLayout>
 
     </StackLayout>
 </ContentPage>

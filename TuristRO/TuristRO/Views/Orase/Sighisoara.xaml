@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Sighisoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="sighisoara2.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce sa vizitezi Sighisoara?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Cetatea medievala a Sighisoarei este legata istoric de tatal lui Vlad Tepes, Vlad Dracul, care a locuit in cetate. 
@@ -52,8 +52,8 @@ Cetatea este construita pe doua etaje, pe cel de sus aflandu-se Biserica din Dea
                     <Label Text="Amplasată în orasul de jos, în afara zidului de apărare, pe malul Târnavei, a făcut parte dintr-un complex format din școală, casa învățătorului și spital pentru leproși, motiv pentru care a fost cunoscută sub denumirea Biserica Leproșilor. Bolnavii nu aveau acces în biserică, preoții catolici oficiau slujba pentru ei de la amvonul exterior, amplasat pe latura vestică."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-                  
 
 
                 </StackLayout>

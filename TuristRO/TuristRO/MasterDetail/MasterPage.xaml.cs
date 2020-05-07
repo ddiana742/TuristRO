@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TuristRO.Meniu;
+using TuristRO.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -39,6 +40,14 @@ namespace TuristRO.MasterDetail
         {
             App.MasterDet.IsPresented = false;
             await App.MasterDet.Detail.Navigation.PushAsync(new LogOut());
+        }
+
+      
+
+        private async void favorite_Clicked(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;
+            await App.MasterDet.Detail.Navigation.PushAsync(new Favorite());
         }
     }
 }

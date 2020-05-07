@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.AlbaIulia">
+             x:Class="TuristRO.Views.Orase.AlbaIulia" >
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
@@ -16,10 +16,11 @@
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
-                    <Label Text="Bun venit in ALBA-IULIA!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Label x:Name="alba" Text="ALBA-IULIA" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="alba3.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
+                  
 
                     <Label Text="  De ce Alba-Iulia?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
@@ -61,8 +62,9 @@ cu cel mai mare debit, cu cea mai mare cascadă, cu cea mai mare colonie de lili
 cu cel mai mare depozit de chiropterit din România"
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
-              <!--      <Label Text="RatingConception!" 
+                    <!--      <Label Text="RatingConception!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 

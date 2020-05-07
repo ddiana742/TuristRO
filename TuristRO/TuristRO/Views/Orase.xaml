@@ -4,10 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Meniu.Orase" BackgroundColor="#F3FFFD" Title="Orașe obiectiv turistic">
+             x:Class="TuristRO.Meniu.Orase" BackgroundColor="#F3FFFD" Title="Orașe obiectiv turistic" >
     <ContentPage.Content>
         <StackLayout >
-            <SearchBar TextChanged="SearchBar_TextChanged"/>
+            <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Cauta oras"/>
     <ListView ItemsSource="{Binding ListCollector}" ItemTapped="ListView_ItemTapped" HasUnevenRows="True"  x:Name="OraseListView">
         <ListView.ItemTemplate>
             <DataTemplate >

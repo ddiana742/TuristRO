@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Bucuresti!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="bucuresti2.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce Bucuresti?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Cu un trecut deosebit, o atmosferă plină de viață și numeroase atracții turistice inedite, București este una dintre cele mai sigure și mai accesibile destinații din Europa. Turiștii pasionați de arhitectură vor descoperi adevărate comori în acest oraș, începând cu mănăstirile deosebite construite în stilul unic Brâncovenesc și  continuând cu maiestuoasele clădiri construite în stilul modern, contemporan."
@@ -58,6 +58,7 @@
                     <Label Text="Poți petrece o zi întreagă în Parcul Herăstrău, înconjurat de natură și nu te vei plictisi. Te vei putea plimba cu vaporașul, hidrobicicleta sau barca și vei putea vizita Acvariul Herăstrău. În plus, vei fi impresionat de modul unic în care apa limpede a Lacului Herăstrău reflectă Casa Presei și Sky Tower la apus.  Tot acolo te vei putea plimba și prin Grădina Japoneză, care găzduiește unele dintre cele mai frumoase exemplare din parc, precum cireșii floriferi și salcâmul japonez cu ramuri plângătoare."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
 
                 </StackLayout>

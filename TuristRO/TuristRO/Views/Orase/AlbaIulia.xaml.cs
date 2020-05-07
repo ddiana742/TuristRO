@@ -32,17 +32,21 @@ namespace TuristRO.Views.Orase
         {
             await NavigateToBuilding25();
         }
+
+        private async void Button_Clicked_1(object sender, EventArgs e) => await Navigation.PushAsync(new Favorite());
+       
+
         /*
 private void RatingConception_Voted(object sender, EventArgs e)
 {
-   RatingConception rating = (RatingConception)sender;
-   int index = rating.IndexVoted;
-   int value = rating.Value;
+RatingConception rating = (RatingConception)sender;
+int index = rating.IndexVoted;
+int value = rating.Value;
 
-   index_star.Text = index.ToString();
-   value_star.Text = value.ToString();
+index_star.Text = index.ToString();
+value_star.Text = value.ToString();
 
-   // rating.InitialValue = 2; sobres así se asigna por default e buen rating
+// rating.InitialValue = 2; sobres así se asigna por default e buen rating
 } */
     }
 }

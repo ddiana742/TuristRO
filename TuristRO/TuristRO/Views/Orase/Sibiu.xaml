@@ -16,7 +16,7 @@
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10">
                     <Label Text="Sibiu" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="sibiu1.jpg" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" />
                     <Label Text="  De ce Sibiu?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
@@ -64,8 +64,8 @@ Muzeul locomotivelor cu aburi din Sibiu a fost înfiinţat în 28 august 1994.
 Acesta cuprinde 41 de locomotive cu aburi, pluguri şi macarale cu aburi care au circulat pe căile ferate din România în urmă cu mai bine de 100 de ani, iar acum se odihnesc pe șinele de cale ferată."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-                    
                 </StackLayout>
             </ScrollView>
         </Grid>

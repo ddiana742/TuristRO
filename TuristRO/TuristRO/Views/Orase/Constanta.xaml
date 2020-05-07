@@ -17,9 +17,9 @@
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Bun venit în Constanta!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
-                    <Image Source="constanta2.jpg" />
+                    <Image Source="constanta.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce sa vizitezi Constanta?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="La malul Mării Negre, în județul care poartă același nume, se află unul dintre cele mai vechi orașe atestate istoric din România, Constanța. Urbea se poate lăuda cu cel mai mare port la bazinul Mării Negre și al patrulea ca mărime din Europa."
@@ -58,7 +58,7 @@
                     <Label Text="Dacă te-ai plimbat măcar o dată pe faleza din Constanța, sigur ai mers pe lângă Farul Genovez, care, deși este un obiectiv important, poate trece neobservat. Amplasat între Cazino și fostul Hotel Carol, astăzi Comandamentul Marinei, Farul Genovez și-a primit numele în semn de respect pentru genovezi, care sunt considerați a fi stăpânitori ai mărilor, nicidecum nu a fost construit de italieni."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
                 </StackLayout>
             </ScrollView>

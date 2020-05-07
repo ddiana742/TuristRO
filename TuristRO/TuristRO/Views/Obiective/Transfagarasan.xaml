@@ -28,7 +28,7 @@
 Citeşte întreaga ştire: Transfăgărășan - traseul spectaculos cu multe locuri de vizitat"
                     HorizontalTextAlignment="Start" />
 
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
               
                     <Image Source="transfagarasan3.jpg" />
@@ -46,7 +46,8 @@ Citeşte întreaga ştire: Transfăgărășan - traseul spectaculos cu multe loc
                     <Image Source="capra.jpg" />
                     <Label Text="Cunoscută și sub denumirea de Cascada Iezerului, vei găsi Cascada Capra pe versantul sudic al Făgărașului, la 1960 metri altitudine. Cascada este aprovizionată din lacul glaciar cu același nume și are o cădere de apă de peste 40 de metri."
                     HorizontalTextAlignment="Start" />
-                   
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
+
 
 
 

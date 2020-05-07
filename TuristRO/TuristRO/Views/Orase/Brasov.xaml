@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Brașov!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="brasov2.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce Brașov?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Așezat în centrul țării, acolo unde s-au întâlnit dintotdeauna drumurile ce au legat teritoriile istorice românești, 
@@ -27,6 +27,7 @@ Brașovul a fost și rămâne o punte de legătură și de circulație a valoril
                HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
                     <Label Text="" />
                     <Label Text=" Locuri de vizitat în Brasov" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                   
                     <Label Text="Strada Sforii" FontAttributes="Bold"/>
                     <Image Source="sforii.jpg" />
                     <Label Text="Intre strazile Cerbului si Poarta Schei exista o strada ca o sfoara, lunga de aproximativ 80 m si lata de pana la 1,35 m. 
@@ -56,8 +57,8 @@ schimbati cu unii cu aspect medieval."
                     <Label Text="Acesta este cel mai mare Parc de Aventură din Europa de Est. Aici vei găsi 15 trasee de dificultate progresivă, tiroliană, jocuri în copaci, trasee multe și diversificate, pentru începători și pentru avansați. Dacă vrei să petreci o zi de neuitat în Brașov, trebuie să vizitezi Parc Aventura pentru a încerca să îți depășești limitele Traseul cu cea mai mare înălțime ajunge până la 20 de metri."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-         
                 </StackLayout>
             </ScrollView>
         </Grid>

@@ -27,7 +27,7 @@
                     <Label Text="La o aruncătură de băț de stațiunea Borșa (iar când citești asta, în minte ți se aciuează sigur Vârful Rodnei din apropiere și momentele de strădanie infantilă când încercai să-i memorezi înălțimea), apele pe care zăpada și ploile le adună cu sârguință într-un circ glaciar, se răsfrâng cu tot elanul peste Podul Cailor. "
                     HorizontalTextAlignment="Start" />
 
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Ce poti face aici?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="cazanele3.jpg" />
@@ -44,6 +44,7 @@
                     <Label Text="Foarte aproape de Chipul lui Decebal se află Mânăstirea Mraconia, care a fost ridicată pe locul unui fost punct de observaţie şi dirijare a vaselor de pe Dunăre. Relieful din zonă nu permite trecerea a două vase simultan, de aici necesitatea unui punct de observare şi dirijare."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
 
 

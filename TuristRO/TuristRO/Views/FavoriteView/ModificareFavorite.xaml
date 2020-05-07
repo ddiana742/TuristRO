@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TuristRO.Views.FavoriteView.ModificareFavorite" BackgroundColor="AntiqueWhite">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Editor Placeholder="Adauga locuri pe care vrei sa le vizitezi:"
+Text="{Binding Nume}"
+HeightRequest="100"  />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Salveaza"
+Clicked="OnSaveButtonClicked" />
+                <Button Grid.Column="1"
+Text="Sterge"
+Clicked="OnDeleteButtonClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -20,7 +20,7 @@
                     <Image Source="sapanta2.jpg" />
                     <Label Text="" />
 
-  <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
 
                     <Label Text="De ce un cimitir?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
@@ -40,6 +40,7 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="Draga Ancuta ia aminte, fi desteapta, fi cuminte. Sa-mi aduci la mormant flori de sute si mii de ori! Iar acum va las pe toti, frate, sora si nepoti! Eu va las pe toti cu bine si sa nu uitati de mine!" HorizontalTextAlignment="Center" />
                     <Label Text="Arda-te focu' taxiu, ce-ai venit de la Sibiu, cat e Tara Romaneasca n-a fost loc ca sa opreasca numa' langa casa noastra pe mine sa ma loveasca. Parintii rau sa-I necajeasca, de nimic nu-i asa dor mare ca  cuconu cand iti moare nici nu este suparare, ca cucoana cand iti moare parintii cat or trai ei pe mine mor jeli." HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
 
 

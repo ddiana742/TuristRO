@@ -17,9 +17,9 @@
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Bun venit în Cluj-Napoca!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
-                    <Image Source="cluj2.jpg" />
+                    <Image Source="cluj.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce sa vizitezi Cluj-Napoca?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Cu un trecut deosebit, o atmosferă plină de viață și numeroase atracții turistice inedite, București este una dintre cele mai sigure și mai accesibile destinații din Europa. Turiștii pasionați de arhitectură vor descoperi adevărate comori în acest oraș, începând cu mănăstirile deosebite construite în stilul unic Brâncovenesc și  continuând cu maiestuoasele clădiri construite în stilul modern, contemporan."
@@ -58,7 +58,7 @@
                     <Label Text="Pădurea Hoia-Baciu este unul dintre cele mai faimoase locuri din lume în care se înregistrează fenomene paranormale. Fie că te impresionează legendele și misterele care s-au adunat în jurul ciudatei păduri sau, dimpotrivă, consideri că e o pădure ca oricare alta, locul este suficient de pitoresc pentru a merita atenție din punct de vedere turistic și recreațional."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
                 </StackLayout>
             </ScrollView>

@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Hunedoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="hunedoara2.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce sa vizitezi Hunedoara?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Hunedoara iti ofera de toate atunci cand vine vorba despre turism: istorie, munti, peisaje deosebite, vestigii istorice incluse in Patrimoniul Mondial UNESCO, statiuni montane sau balneare. Asadar, putem spune ca odata ce ai ajuns in aceasta parte a Romaniei, vei dori sa stai cat mai mult timp, deoarece ai extrem de multe lucruri de vizitat."
@@ -53,8 +53,8 @@ Initial tavanita, a fost acoperita cu o bolta semicirculara cu penetratii, decor
                     <Label Text="Mănăstirea Prislop este una dintre cele mai importante centre spirituale ale țării noastre, vizitată anual de mii de credincioși. Aici se află mormântul părintelui Arsenie Boca, devenit în ultimii ani un important loc de pelerinaj pentru ortodocşii români. Tot aici este și chilia săpată în stâncă a cuviosului Ioan Sihastrul, dar și icoana făcătoare de minuni a Maicii Domnului, datând din secolul al XVII-lea."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-              
 
 
                 </StackLayout>

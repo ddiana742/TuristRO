@@ -19,7 +19,7 @@
                     <Label Text="Bun venit în Suceava!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="suceava2.jpg" />
                     <Label Text="" />
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce Suceava?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
 
                     <Label Text="Suceava este un punct de start excelent pentru vizitarea numeroaselor manastiri din zona, insa cei mai multi calatori care ajung aici se trezesc prinsi de farmecul orasului si se pierd printre strazi ore intregi, indemnati de bogatia istorica si culturala ce respira prin zidurile cladirilor si sub fiecare pas pe lespezile de piatra."
@@ -52,8 +52,8 @@
                     <Label Text="Ruinele de piatra ale Curtii Domnesti se ridica pe acelasi loc in care cercetarile arheologice au descoperit una dintre cele mai vechi curti domnesti din zona, amenajata in timpul domniei lui Petru I Musat. In prezent, vizitatorii orasului, iubitori de istorie veche romaneasca, pot retrai timpuri demult apuse la o plimbare prin jurul Curtii Domnesti din care au ramas, mandre si inalte, ziduri cu o inaltime cuprinsa intre 1 si 5 metri construite in perioada lui Alexandru cel Bun si Stefan cel Mare."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-               
 
 
 

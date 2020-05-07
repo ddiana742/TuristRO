@@ -4,10 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Evenimente.Muzica" BackgroundColor="AntiqueWhite">
+             x:Class="TuristRO.Views.Evenimente.Muzica" BackgroundColor="AntiqueWhite" Title="Evenimente muzicale">
     <ScrollView>
 
-        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10"  >
             <Grid Margin="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -15,15 +15,15 @@
                 </Grid.RowDefinitions>
 
                 <StackLayout>
-                    <Label Text="Evenimente muzicale" FontSize="24" FontAttributes="Bold" TextColor="Black" VerticalOptions="Start"/>
+                 
                     <ScrollView Grid.Row="1">
-                        <CollectionView x:Name="eventList" Grid.Row="1" ItemsLayout="VerticalList" ItemsSource="{Binding}" >
+                        <CollectionView x:Name="eventList" Grid.Row="1" ItemsLayout="VerticalList" ItemsSource="{Binding}">
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <ContentView >
 
-                                        <Frame HasShadow="True" CornerRadius="15" Margin="2" Padding="10"   HeightRequest="100" BackgroundColor="WhiteSmoke"  >
-                                            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                                        <Frame HasShadow="True" CornerRadius="15" Margin="5" Padding="18"   HeightRequest="100" BackgroundColor="WhiteSmoke"  >
+                                            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"   >
                                                 <Grid.RowDefinitions>
                                                     <RowDefinition Height="Auto"/>
                                                     <RowDefinition Height="*"/>
@@ -32,7 +32,7 @@
 
                                                 <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Start">
                                                     <BoxView WidthRequest="12" HeightRequest="12" CornerRadius="6" BackgroundColor="#F8F8F8" HorizontalOptions="Start"/>
-                                                    <Label Text="{Binding EventTitle}" FontSize="12" TextColor="Black" HorizontalOptions="Start"/>
+                                                    <Label Text="{Binding EventTitle}" FontSize="14" TextColor="Black" HorizontalOptions="Start"/>
 
                                                 </StackLayout>
 

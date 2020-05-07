@@ -6,7 +6,7 @@
              xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
 
              mc:Ignorable="d"
-             x:Class="TuristRO.MasterDetail.DetailPage" Title="Meniu" BackgroundColor="#F3FFFD" BackgroundImageSource="">
+             x:Class="TuristRO.MasterDetail.DetailPage" Title="Meniu" BackgroundColor="White" BackgroundImageSource="">
 
    
         <Grid>
@@ -20,7 +20,7 @@
                                     VerticalOptions="Start">
                 <cv:CarouselViewControl.ItemTemplate>
                     <DataTemplate>
-                        <Grid HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Padding="0,15,0,0">
+                        <Grid HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Padding="0,15,0,0" >
                             <Image Source="{Binding Image}" Aspect="Fill" HorizontalOptions="FillAndExpand" />
                         
                             <StackLayout Margin="30,20,0,0" Spacing="15" HorizontalOptions="FillAndExpand" VerticalOptions="End">
@@ -38,7 +38,7 @@
             <!-- informatii pagina principala-->
                 <ScrollView Grid.Row="1">
                     <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10">
-                        <Label Text="Descoperă ROMÂNIA!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="DarkSlateGray"/>
+                <Label Text="Descoperă ROMÂNIA!" FontSize="Large" FontAttributes="Bold" BackgroundColor="AntiqueWhite" HorizontalTextAlignment="Center"  TextColor="DarkSlateGray"/>
                    
                     <Label Text="" />
                     <Label Text="  De ce România?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="White"  TextColor="DarkSlateGray" />
@@ -53,7 +53,7 @@
                            HorizontalTextAlignment="Start" TextColor="DarkSlateGray"  />
                 <Label Text="cele mai frumoase locuri de vizitat din România" FontAttributes="Bold" HorizontalTextAlignment="Start"/>
                 <!--redirectionare spre pagina de obiective-->
-                        <Button Margin="20,20" Text="Click aici" Clicked="Button_Clicked" BackgroundColor="WhiteSmoke" CornerRadius="20" WidthRequest="10" HeightRequest="40"/>
+                        <Button Margin="20,20" Text="Click aici" Clicked="Button_Clicked" BackgroundColor="AntiqueWhite" CornerRadius="20" WidthRequest="10" HeightRequest="40"/>
 
                 </StackLayout>
             </ScrollView>

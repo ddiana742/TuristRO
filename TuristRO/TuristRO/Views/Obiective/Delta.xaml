@@ -27,7 +27,7 @@
                     <Label Text="Fie că ai ajuns sau nu în deltă, imaginea pelicanilor care își duc nestingheriți traiul și a nuferilor plutind mândrii pe întinderea apei îți răsfață cu siguranță imaginația. O plimbare de câteva ore în leagănul valurilor de pe brațele Dunării este fix picătura de apă care atinge nisipul deșertului unu suflet citadin, prea adesea epuizat de privațiunile spirituale impuse de un oraș sufocant. "
                     HorizontalTextAlignment="Start" />
 
-                    <Button Text="Navigheaza" Clicked="Button_Clicked"/>
+                    <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Ce poti face aici?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="letea.jpg" />
@@ -44,6 +44,7 @@
                     <Label Text="În ceea ce privește mamiferele prezente în arealul Deltei, găsim 54 de specii, care pot fi întâlnite preponderent în zonele mai izolate de uscat sau în cele mlăștinoase."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
+                    <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
 
 
 

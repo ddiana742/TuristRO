@@ -7,14 +7,14 @@
              x:Class="TuristRO.Meniu.Obiective" BackgroundColor="#F3FFFD" Title="Obiective turistice">
     <ContentPage.Content >
         <StackLayout >
-            <SearchBar TextChanged="SearchBar_TextChanged" />
+            <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Cauta obiectiv turistic"/>
             <ListView ItemsSource="{Binding List2Collector}" ItemTapped="ObiectiveListView_ItemTapped" HasUnevenRows="True"  x:Name="ObiectiveListView" >
                 <ListView.ItemTemplate>
                     <DataTemplate >
                     <ViewCell >
                         <StackLayout Orientation="Vertical" >
 
-                                <Grid BackgroundColor="#E6F5F3" HeightRequest="10" Padding="20"/>
+                                <Grid BackgroundColor="#E6F5F3" HeightRequest="10" Padding="10"/>
                             <StackLayout Orientation="Vertical"  >
                                     <Label Text="{Binding Nume}" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"  HorizontalOptions="CenterAndExpand"/>
                             <Image Source="{Binding Imagine}"  HeightRequest="200"/>

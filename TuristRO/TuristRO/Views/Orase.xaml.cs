@@ -24,13 +24,13 @@ namespace TuristRO.Meniu
             switch (myselecteditem.ID)
             {
                 case 1:
-                    await Navigation.PushAsync(new AlbaIulia());
+                    await Navigation.PushAsync(new Bucuresti());
                     break;
                 case 2:
-                    await Navigation.PushAsync(new Sibiu());
+                    await Navigation.PushAsync(new Iasi());
                     break;
                 case 3:
-                    await Navigation.PushAsync(new Constanta());
+                    await Navigation.PushAsync(new Hunedoara());
                     break;
                 case 4:
                     await Navigation.PushAsync(new Brasov());
@@ -39,19 +39,19 @@ namespace TuristRO.Meniu
                     await Navigation.PushAsync(new Cluj());
                     break;
                 case 6:
-                    await Navigation.PushAsync(new Hunedoara());
+                    await Navigation.PushAsync(new Constanta());
                     break;
                 case 7:
                     await Navigation.PushAsync(new Suceava());
                     break;
                 case 8:
-                    await Navigation.PushAsync(new Iasi());
+                    await Navigation.PushAsync(new Sibiu());
                     break;
                 case 9:
                     await Navigation.PushAsync(new Oradea());
                     break;
                 case 10:
-                    await Navigation.PushAsync(new Bucuresti());
+                    await Navigation.PushAsync(new AlbaIulia());
                     break;
                 case 11:
                     await Navigation.PushAsync(new Timisoara());

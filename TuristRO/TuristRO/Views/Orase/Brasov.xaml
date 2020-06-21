@@ -4,16 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Brasov">
+             x:Class="TuristRO.Views.Orase.Brasov" Title="Brașov">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Bun venit în Brașov!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
@@ -21,13 +18,12 @@
                     <Label Text="" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="  De ce Brașov?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text="Așezat în centrul țării, acolo unde s-au întâlnit dintotdeauna drumurile ce au legat teritoriile istorice românești, 
 Brașovul a fost și rămâne o punte de legătură și de circulație a valorilor materiale și spirituale și o zonă de simbioză între cultura românească și cea a naționalităților conlocuitoare."
                HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
                     <Label Text="" />
                     <Label Text=" Locuri de vizitat în Brasov" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-                   
+
                     <Label Text="Strada Sforii" FontAttributes="Bold"/>
                     <Image Source="sforii.jpg" />
                     <Label Text="Intre strazile Cerbului si Poarta Schei exista o strada ca o sfoara, lunga de aproximativ 80 m si lata de pana la 1,35 m. 
@@ -63,5 +59,4 @@ schimbati cu unii cu aspect medieval."
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

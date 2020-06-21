@@ -4,62 +4,46 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Obiective.Bigar" Title="Obiective turistice">
+             x:Class="TuristRO.Views.Obiective.Bigar" Title="Cascada Bigăr">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Cascada Bigăr, județul Caraș-Severin" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="bigar2.jpg" />
                     <Label Text="" />
-                   
                     <Label Text="Despre.. " FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
-                    <Label Text="Declarată în repetate rânduri drept una dintre cele mai frumoase cascade din lume, Cascadă Bigar are, începând de anul trecut, un traseu turistic special amenajat pentru a putea fi vizitată în deplină siguranță."
-                
-
-               HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
-                   
-                   
+                    <Label Text="Declarată în repetate rânduri drept una dintre cele mai frumoase cascade din lume, Cascadă Bigar are, începând de anul trecut, un traseu turistic special amenajat pentru a putea fi vizitată în deplină siguranță."              
+                                            HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
                     <Label Text="" />
                     <Label Text=" Unde o găsim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text="În apropiere de localitatea Bozovici din județul Caraș-Severin, Bigar a devenit unul dintre principalele obiective turistice din Parcul Național Cheile Nerei-Beușnița, având una dintre cele mai spectaculoase căderi de apă din lume. De altfel, The World Geography a clasat cascada Bigar pe primul loc în clasamentul  celor mai frumoase cascade unice din lume realizat în 2013.  "
-                    HorizontalTextAlignment="Start" />
+                                            HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Navighează"  Clicked="Button_Clicked" ImageSource="navigheaza.png" VerticalOptions="Center" />
-
                     <Label Text=" Cum a început totul?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="bigar3.jpg" />
                     <Label Text="Amenajarea cascadei Bigăr a pornit de la inițiativa angajaților din fabrica Coca Cola HBC Timișoara, care au remarcat potențialul turistic al zonei și și-au dorit ca accesul la baza cascadei să fie mai ușor și sigur.
- După aproape zece luni de amenajări, pe 26 mai 2017, cascada Bigăr și-a deschis oficial porțile pentru turiștii pasionați de frumos și natură.
- Demarate în luna iulie 2016, aceste lucrari au vizat dezvoltarea unui traseu turistic coerent, începând cu accesul în zona cascadei Bigăr și continuând cu restul obiectivelor turistice din apropierea sa."
-                    HorizontalTextAlignment="Start" />
+                                    După aproape zece luni de amenajări, pe 26 mai 2017, cascada Bigăr și-a deschis oficial porțile pentru turiștii pasionați de frumos și natură.
+                                    Demarate în luna iulie 2016, aceste lucrari au vizat dezvoltarea unui traseu turistic coerent, începând cu accesul în zona cascadei Bigăr și continuând cu restul obiectivelor turistice din apropierea sa."
+                                                                 HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Label Text=" Legende.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="bigar5.jpg" />
                     <Label Text="Se spune ca la terminarea celei de-a șasea zi, imediat după facerea lumii și înainte de a se bucura de binemerită zi de odihnă, Creatorul și-a amintit de săculețul lui cu minuni. L-a luat cu grijă de pe un raft prăfuit, a scos dinăuntru un pumn și a presărat cu grijă conținutul din loc în loc, pe toată suprafața lumii. Una dintre acestea a nimerit la un pas de Paralela 45, în județul Caraș-Severin, iar oamenii au numit-o Cascada Bigăr."
-                    HorizontalTextAlignment="Start" />
+                        HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text="Se mai spune că albastrul izvorului te face să crezi că acolo a căzut cerul, iar curgerea de apă peste stânca acoperită de mușchi pare un voal de mireasă. Dar nu trebuie să iei nimic de-a bună fără să vezi cu ochii tăi."
-                    HorizontalTextAlignment="Start" />
+                        HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

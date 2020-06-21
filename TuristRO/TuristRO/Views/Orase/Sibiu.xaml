@@ -4,17 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Sibiu">
+             x:Class="TuristRO.Views.Orase.Sibiu" Title="Sibiu">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10">
-                    <Label Text="Sibiu" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Label Text="Bun venit în Sibiu!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="sibiu1.jpg" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" />
@@ -30,14 +29,14 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-               
+
                     <Label Text="Podul Minciunilor" FontAttributes="Bold"/>
                     <Image Source="podul.jpg" />
                     <Label Text="Podul Minciunilor se numără printre cele mai cunoscute obiective turistice ale Sibiului. Podul Minciunilor sau Podul culcat este un pod metalic, construit în anul 1859 deasupra străzii Ocnei care făcea legătura între Orașul de Jos și Orașul de Sus.
 Din cauza faptului că podul respectiv a fost primul ridicat fără piloni de sprijin, i s-a mai spus şi podul culcat'."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-             
+
                     <Label Text="Palatul Brukenthal" FontAttributes="Bold"/>
                     <Image Source="brukenthal.jpg" />
                     <Label Text="Palatul Brukenthal adăpostește Galeria de Artă și Biblioteca Muzeului Național Brukenthal, unde se află cele mai valoroase colecții de picturi baroce din centrul și estul Europei.
@@ -45,7 +44,7 @@ Palatul Brukenthal din Sibiu, azi Muzeul Brukenthal, a fost inclus pe Lista monu
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                   
+
                     <Label Text="Muzeul Civilizației Populare Tradiționale ASTRA" FontAttributes="Bold"/>
                     <Image Source="astramuzeu.jpg" />
                     <Label Text="Una dintre atracțiile turistice pe care nu le puteți rata dacă meregeți în în Sibiu este Muzeul Civilizației Populare Tradiționale Astra din Dumbrava Sibiului.
@@ -54,7 +53,7 @@ Muzeul ASTRA este al doilea cel mai mare muzeu în aer liber din lume. Format cu
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                  
+
                     <Label Text="Muzeul Locomotivelor cu Abur" FontAttributes="Bold"/>
                     <Image Source="locomotive.jpg" />
                     <Label Text="Într-un oraș ce vibrează de artă și cultură, Muzeul Locomotivelor cu Abur își găseste loc în apropierea gării CFR. Gara CFR din Sibiu, bineințeles.
@@ -70,5 +69,4 @@ Acesta cuprinde 41 de locomotive cu aburi, pluguri şi macarale cu aburi care au
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

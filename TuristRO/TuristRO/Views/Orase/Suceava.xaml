@@ -4,15 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Suceava">
+             x:Class="TuristRO.Views.Orase.Suceava" Title="Suceava">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
@@ -32,21 +30,21 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                   
+
                     <Label Text="Cetatea de Scaun a Sucevei" FontAttributes="Bold"/>
                     <Image Source="cetatesuceava.jpg" />
                     <Label Text="Cetatea este bine conservata, martora a unor vremuri demult apuse, dar ramase vii in inimile romanilor. Se pot vizita incaperi cu diverse scopuri precum inchisoarea, pivnita, capela sau baia de abur, iar in cadrul cetatii au loc expozitii si festivaluri anuale precum festivalul de Arta Medievala Stefan cel Mare."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                  
+
                     <Label Text="Monumentul lui Stefan cel Mare" FontAttributes="Bold"/>
                     <Image Source="stefan.jpg" />
                     <Label Text="Statuia se afla in Parcul Cetatii si este construita din bronz de catre sculptorul Iftimie Barleanul. Asezata pe o coloana inalta de piatra, statuia il prezinta pe marele voievod moldovean calare pe cal la o inaltime de 8 metri, tronand asupra parcului."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                
+
                     <Label Text="Curtea Domneasca" FontAttributes="Bold"/>
                     <Image Source="curtea.jpg" />
                     <Label Text="Ruinele de piatra ale Curtii Domnesti se ridica pe acelasi loc in care cercetarile arheologice au descoperit una dintre cele mai vechi curti domnesti din zona, amenajata in timpul domniei lui Petru I Musat. In prezent, vizitatorii orasului, iubitori de istorie veche romaneasca, pot retrai timpuri demult apuse la o plimbare prin jurul Curtii Domnesti din care au ramas, mandre si inalte, ziduri cu o inaltime cuprinsa intre 1 si 5 metri construite in perioada lui Alexandru cel Bun si Stefan cel Mare."
@@ -55,11 +53,8 @@
                     <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
 
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

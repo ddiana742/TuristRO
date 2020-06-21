@@ -4,19 +4,17 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Sighisoara">
+             x:Class="TuristRO.Views.Orase.Sighisoara" Title="Sighișoara">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
-                    <Label Text="Bun venit în Sighisoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Label Text="Bun venit în Sighișoara!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="sighisoara2.jpg" />
                     <Label Text="" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
@@ -33,20 +31,20 @@ Cetatea este construita pe doua etaje, pe cel de sus aflandu-se Biserica din Dea
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                  
+
                     <Label Text="Biserica din deal" FontAttributes="Bold"/>
                     <Image Source="bisericadeal.jpg" />
                     <Label Text="Deținătoarea Marelui Premiu Europa Nostra, acordat pentru restaurarea și consolidarea structurală și a premiului UE pentru patrimoniu, Biserica din deal a ajuns la actuala formă în decursul a mai multe secole. Construcția au fost începută în 1345, modificată în 1429 și după finisările interioare a ajuns la o formă finală în 1506. A fost reparată după fiecare stricăciune creată de fenomene naturale, sau atacuri."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-                
+
                     <Label Text="Casa Vlad Dracul" FontAttributes="Bold"/>
                     <Image Source="vlad.jpg" />
                     <Label Text="În Piața Turnului Sfatului se află Casa Vlad Dracul, în care se presupune ca s-a născut Vlad Țepes, numit Dracula. Fiul voievodului Țării Românești Vlad Dracu a fost renumit pentru pedepsele exemplare aplicate adversarilor săi, de unde s-a născut și legenda Dracula. Vlad Țepeș zis Dracula s-a născut în anul 1431."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                 
+
                     <Label Text="Biserica Leproșilor" FontAttributes="Bold"/>
                     <Image Source="bisericaleprosilor.jpg" />
                     <Label Text="Amplasată în orasul de jos, în afara zidului de apărare, pe malul Târnavei, a făcut parte dintr-un complex format din școală, casa învățătorului și spital pentru leproși, motiv pentru care a fost cunoscută sub denumirea Biserica Leproșilor. Bolnavii nu aveau acces în biserică, preoții catolici oficiau slujba pentru ei de la amvonul exterior, amplasat pe latura vestică."
@@ -54,11 +52,8 @@ Cetatea este construita pe doua etaje, pe cel de sus aflandu-se Biserica din Dea
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

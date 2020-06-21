@@ -21,7 +21,6 @@ namespace TuristRO.Views.Obiective
         {
             var location = new Location(47.969159, 23.6899377);
             var options = new MapLaunchOptions { Name = "Cimitirul Vesel" };
-            var options2 = new MapLaunchOptions { NavigationMode = NavigationMode.Bicycling };
 
             await Map.OpenAsync(location, options);
         }

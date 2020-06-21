@@ -4,19 +4,17 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Iasi">
+             x:Class="TuristRO.Views.Orase.Iasi" Title="Iași">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
-                    <Label Text="Bun venit în Iasi!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Label Text="Bun venit în Iași!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="iasi2.jpg" />
                     <Label Text="" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
@@ -33,27 +31,26 @@ Palatul din centrul Iaşilor, conceput în spiritul palatelor comunale din Europ
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                 
+
                     <Label Text="Bojdeuca lui Ion Creangă" FontAttributes="Bold"/>
                     <Image Source="creanga.jpg" />
                     <Label Text="In centul parcului Copou, langa Teiul lui Eminescu, se gaseste bustul lui Eminescu cat si bustul vechiului sau prieten Ion Creanga ridicat in 1932. Mai tarziu a fost ridicata Aleea Junimea cu busturile din bronz ale membrilor sai: monumentul poetei Veronica Micle, bustul lui Costache Negruzzi, bustul lui Iacob Negruzzi, bustul lui Gheorghe Panaitescu-Bardasare, bustul lui Constantin Daniel Stahi, bustul lui Nicolae Gane și bustul lui Barbu Ștefănescu-Delavrancea"
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-                  
+
                     <Label Text="Parcul Copou şi Teiul lui Eminescu" FontAttributes="Bold"/>
                     <Image Source="tei.jpg" />
                     <Label Text="In centul parcului Copou, langa Teiul lui Eminescu, se gaseste bustul lui Eminescu cat si bustul vechiului sau prieten Ion Creanga ridicat in 1932. Mai tarziu a fost ridicata Aleea Junimea cu busturile din bronz ale membrilor sai: monumentul poetei Veronica Micle, bustul lui Costache Negruzzi, bustul lui Iacob Negruzzi, bustul lui Gheorghe Panaitescu-Bardasare, bustul lui Constantin Daniel Stahi, bustul lui Nicolae Gane și bustul lui Barbu Ștefănescu-Delavrancea" 
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                   
+
                     <Label Text="Gradina Botanica" FontAttributes="Bold"/>
                     <Image Source="gradinaiasi.jpg" />
                     <Label Text="Este cea mai mare grădină botanică din România, o oază de linişte şi de frumos. Am avut foarte puţin timp la dispoziţie pentru vizită, înţeleg că este de stat cam 3-4 ore fără să te plictiseşti. Eu m-aş fi lăsat un pic pierdută pe acolo, printre daliile aflate în plină înflorire, plantele aromatice care te ameţeau cu mirosul lor şi colecţiile de cactuşi şi plante exotice."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-                    
-                 
+
                     <Label Text="Turnul cu Ceas" FontAttributes="Bold"/>
                     <Image Source="turnul.jpg" />
                     <Label Text="Se află tot în Palatul Culturii, dar se vizitează separat. Pe oră urcă doar un grup de şapte persoane, de aceea este nevoie de programare la începutului zilei (de preferat la zece dimineaţa, pentru siguranţă). Noi am ajuns după ce se terminaseră tururile şi nu am reuşit să îl mai vizităm, am presupus doar că priveliştea asupra Iaşului este de vis. Oricum, ceasul în sine este o capodoperă, care poate fi admirată din exterior."
@@ -61,10 +58,8 @@ Palatul din centrul Iaşilor, conceput în spiritul palatelor comunale din Europ
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

@@ -22,8 +22,8 @@
 
   <ItemGroup>
     <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
-    <PackageReference Include="LiveXAML" Version="2.1.73" />
     <PackageReference Include="Plugin.GoogleClient" Version="1.1.1" />
+    <PackageReference Include="Plugin.MediaManager" Version="0.9.7" />
     <PackageReference Include="RatingConception" Version="1.4.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
@@ -57,9 +57,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\FavoriteView\ModificareFavorite.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\LogOut.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Obiective.xaml">

@@ -4,52 +4,35 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Obiective.CimitirulVesel">
+             x:Class="TuristRO.Views.Obiective.CimitirulVesel" Title="Cimitirul Vesel">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Cimitirul Vesel de la Săpânța, județul Maramureș" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="sapanta2.jpg" />
                     <Label Text="" />
-
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
-
                     <Label Text="De ce un cimitir?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text="Dacă vizitarea unui cimitir nu ți-a transmis niciodată bună dispoziție, merită să ajungi până hăt la granița de nord cu Ucraina, în satul care a învățat să sfideze moartea și să o privească cu veselia tipică omului rustic."
                     HorizontalTextAlignment="Start" />
-
-                  
                     <Label Text="" HorizontalTextAlignment="Center" />
-                   
                     <Image Source="sapanta3.jpg" />
                     <Label Text="Defuncții sunt reprezentați caricatural după meseria pe care o aveau (tăietor de lemne, agricultor, cizmar etc), activitatea cărora îi dedicau cea mai mare parte a timpului (frământarea pâinii, țesutul) sau în funcție de scena morții. Sub fiecare sculptură vei găsi câte un epitaf alcătuit cu dibăcie (și ironie), câteva versuri care povestesc moartea celui care se odihnește acolo și, de multe ori, o ilustrare hazlie a viciilor acestuia din timpul vieții."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Label Text="Cele mai amuzante mesaje din Cimitirul Vesel:" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Label Text="Sub aceasta cruce grea, zace biata soacra-mea, trei zile de mai traia zaceam eu si cetea ea. Voi care treceti pa aici incercati sa n-o treziti ca acasa daca vine iara-i cu gura pa mine, da asa eu m-oi purta ca-napoi n-a inturna. Stai aicea, draga soacra-mea."
                     HorizontalTextAlignment="Start" />
                     <Label Text="Draga Ancuta ia aminte, fi desteapta, fi cuminte. Sa-mi aduci la mormant flori de sute si mii de ori! Iar acum va las pe toti, frate, sora si nepoti! Eu va las pe toti cu bine si sa nu uitati de mine!" HorizontalTextAlignment="Center" />
                     <Label Text="Arda-te focu' taxiu, ce-ai venit de la Sibiu, cat e Tara Romaneasca n-a fost loc ca sa opreasca numa' langa casa noastra pe mine sa ma loveasca. Parintii rau sa-I necajeasca, de nimic nu-i asa dor mare ca  cuconu cand iti moare nici nu este suparare, ca cucoana cand iti moare parintii cat or trai ei pe mine mor jeli." HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-
-
-
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

@@ -4,29 +4,21 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Obiective.Cazanele">
+             x:Class="TuristRO.Views.Obiective.Cazanele" Title="Cazanele Dunării">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Cazanele Dunării – Dubova, județul Mehedinți" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="cazanele2.jpg" />
                     <Label Text="" />
-
-
-
                     <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text="La o aruncătură de băț de stațiunea Borșa (iar când citești asta, în minte ți se aciuează sigur Vârful Rodnei din apropiere și momentele de strădanie infantilă când încercai să-i memorezi înălțimea), apele pe care zăpada și ploile le adună cu sârguință într-un circ glaciar, se răsfrâng cu tot elanul peste Podul Cailor. "
                     HorizontalTextAlignment="Start" />
-
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Ce poti face aici?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
@@ -34,7 +26,6 @@
                     <Label Text="Plimbări cu barca pe Dunăre, partide de pescuit, drumeţii în Parcul Naţional Porţile de Fier, chipul lui Decebal, Mânăstirea Mraconia sunt doar câteva dintre atracţiile zonei cunoscute drept Cazanele Dunării."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Label Text=" De neratat.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="decebal.jpg" />
                     <Label Text="Aproape de golful Mraconia, se poate observa, săpat în stȃncă, chipul lui Decebal, statuia având dimensiunile 55 m înălţime şi 25 m - lăţime. Statuia este de 3 ori mai înaltă decât Colosul din Rodos, dar e cu 6 metri mai mică decât Statuia Libertăţii din New York. Ideea construirii acestei statui i-a aparţinut omului de afaceri român Iosif Constantin Drăgan şi a durat 10 ani (1994-2004) pentru ca cei 12 sculptori-alpinişti să o termine, realizarea ei costându-l pe Drăgan, în final, peste un milion de dolari."
@@ -45,15 +36,8 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-
-
-
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

@@ -25,13 +25,6 @@ namespace TuristRO.ViewModel
                  new ObiectiveModels() {id=9, Nume = "Cazanele Dunării", Descriere = " Una dintre cele mai frumoase zone de pe defileul Dunarii. Asezate la trecerea Dunarii prin muntii Carpati", Imagine = "cazanele.jpg" },
                  new ObiectiveModels() {id=10, Nume = "Castelul Peleș", Descriere = "Construit la iniţiativa primului Rege al României, Carol I, în afara perimetrului comunei Podul Neagului", Imagine = "peles.jpg" },
                  new ObiectiveModels() {id=11, Nume = "Cascada Cailor", Descriere = "Situată în apropiere de stațiunea turistică Borșa", Imagine = "cascada.jpg" }
-
-
-
-
-
-
-
             };
         }
     }

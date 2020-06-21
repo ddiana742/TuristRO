@@ -29,12 +29,12 @@ namespace TuristRO.MasterDetail
         private List<BannerModel> GetBanners() //elementele banner-ului
         {
             var bannerList = new List<BannerModel>();
-            bannerList.Add(new BannerModel { Heading = "", Image = "rom1.jpeg" });
-            bannerList.Add(new BannerModel { Heading = "", Image = "rom2.jpg" });
-            bannerList.Add(new BannerModel { Heading = "", Image = "rom3.jpg" });
-            bannerList.Add(new BannerModel { Heading = "", Image = "rom4.jpg" });
-            bannerList.Add(new BannerModel { Heading = "", Image = "romania7.jpg" });
-            bannerList.Add(new BannerModel { Heading = "", Image = "romania3.jpg" });
+            bannerList.Add(new BannerModel {  Image = "rom1.jpeg" });
+            bannerList.Add(new BannerModel {  Image = "rom2.jpg" });
+            bannerList.Add(new BannerModel {  Image = "rom3.jpg" });
+            bannerList.Add(new BannerModel {  Image = "rom4.jpg" });
+            bannerList.Add(new BannerModel {  Image = "romania7.jpg" });
+            bannerList.Add(new BannerModel {  Image = "romania3.jpg" });
             return bannerList;
         }
         protected override void OnAppearing()

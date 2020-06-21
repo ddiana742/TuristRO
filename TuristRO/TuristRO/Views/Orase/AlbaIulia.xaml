@@ -4,13 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.AlbaIulia" >
+             x:Class="TuristRO.Views.Orase.AlbaIulia" Title="Alba-Iulia" >
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
 
 
@@ -20,10 +19,7 @@
                     <Image Source="alba3.jpg" />
                     <Label Text="" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
-                  
-
                     <Label Text="  De ce Alba-Iulia?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text=" Istoria, aspectul, culorile, aromele, atmosfera din jur, oamenii care îl pun în valoare sunt culorile care fac povestea fiecărui obiectiv UNICĂ. Se poate să-ţi placă sau nu, dar unicitatea lui rămâne, ca o carte de vizită a locului. După călătoria în judeţul Alba am găsit multe locuri/lucruri unice, la nivel naţional. Sigur, o parte dintre aceste obiective sunt unice în Europa sau în lume! Iată un top pentru lucrurile/locurile unice pe care le poţi descoperi în judeţul Alba!"
                HorizontalTextAlignment="Start" LineBreakMode="WordWrap"   />
                     <Label Text="" />
@@ -63,33 +59,10 @@ cu cel mai mare depozit de chiropterit din România"
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-                    <!--      <Label Text="RatingConception!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-
-                    <Label Text="RatingConception!" 
-           HorizontalOptions="Center"
-           x:Name="index_star"
-           VerticalOptions="CenterAndExpand" />
-
-
-                   <Label Text="RatingConception!" 
-           HorizontalOptions="Center"
-           x:Name="value_star" 
-           VerticalOptions="CenterAndExpand" />
-
-                 <lv:RatingConception ItemsNumber="5" DrawType="Star" 
-                    ImageWidth="35" ImageHeight="35"  DesignType="Standard" ColorUI="YellowLight" 
-                   
-                    x:Name="ratingStar"
-                    Margin="0,15,0,15" Voted="RatingConception_Voted" /> -->
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>
 
 

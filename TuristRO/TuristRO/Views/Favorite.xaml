@@ -5,16 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TuristRO.Views.Favorite" BackgroundColor="AliceBlue" Title="Locuri de vizitat">
-    <ContentPage.ToolbarItems>
-       <!-- <ToolbarItem Text="+"
-Clicked="OnNoteAddedClicked" /> -->
-    </ContentPage.ToolbarItems>
-    <StackLayout>
+    <StackLayout >
         <Image Source="travel.png" HeightRequest="200" Margin="15" /> 
-        <Button Text="adauga" Clicked="OnNoteAddedClicked" Margin="50,10,50,15"/>
-        <ListView x:Name="listView"
-Margin="30"
-ItemSelected="OnListViewItemSelected">
+        <Button Text="Adaugă în listă" Clicked="OnNoteAddedClicked" Margin="50,10,50,15"/>
+        <ListView x:Name="listView" Margin="30" ItemSelected="OnListViewItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Nume}" TextColor="CadetBlue"  />

@@ -4,15 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Oradea">
+             x:Class="TuristRO.Views.Orase.Oradea" Title="Oradea">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
@@ -32,28 +30,28 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-               
+
                     <Label Text="Calea Republicii" FontAttributes="Bold"/>
                     <Image Source="republicii.jpg" />
                     <Label Text="Este o stradă pietonală unde orădenii, dar și turiștii se retrag pentru o pauză binemeritată, după câteva ore de bântuit pe străzile orașului și de vizitat muzeele și cetatea. Sau după maratonul până-n vârful Turnului Primăriei. Pot găsi aici o mulțime de terase, aflate la parterul clădirilor istorice, unde pot lua prânzul, cina sau pot bea o cafea."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-                    
-                 
+
+
                     <Label Text="Cetatea Oradei" FontAttributes="Bold"/>
                     <Image Source="cetate.jpg" />
                     <Label Text="Dacă ne întoarcem și mai mult în timp, în perioada medievală, ajungem și la Cetatea Oradei, care a fost reabilitată în totalitate, după ce, ani de zile, a zăcut ca o ruină de nerecunoscut. Astăzi, turiștii pot face un tur al cetății în manieră impecabilă, trecând de la fresce superbe la statui neobișnuite (grifoni, unicorni, elefanți), la un scaun de tortură sau chiar la un fost localnic al cetății."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                    
+
                     <Label Text="Băile Felix" FontAttributes="Bold"/>
                     <Image Source="felix.jpg" />
                     <Label Text="E adevărat că nu sunt chiar în Oradea, dar se află la mică distanță de oraș, așa că merită să ajungi și aici. Primele izvoare termale au fost descoperite pe la începutul anilor 1200, iar de atunci oamenii s-au folosit intens de beneficiile acestor ape. Recunoașterea a venit odată cu Medalia de Aur pe care Băile Felix au primit-o la Expoziția Universală de la Berlin, din anul 1896, care le-a fost decernată pentru calitatea apelor termale."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-         
+
                     <Label Text="Aquapark Nymphaea" FontAttributes="Bold"/>
                     <Image Source="aquapark.jpg" />
                     <Label Text="Toate ca toate, dar vacanța nu este numai despre istorie și cultură, ci și despre distracție, așa că ne-am bucurat mult când am auzit de acest aquapark. Înainte de toate, trebuie să știi că minunăția aceasta este o investiție a primăriei, fiind unul dintre cele mai mari parcuri din această regiune a Europei. Ca punct de reper, ține minte că este localizat chiar lângă Double Tree by Hilton, pe malul Crișului Repede."
@@ -61,10 +59,8 @@
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" x:Name="favorite" Clicked="favorite_Clicked" Margin="15,15,15,15"/>
 
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

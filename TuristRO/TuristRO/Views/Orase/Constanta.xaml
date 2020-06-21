@@ -4,19 +4,17 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Orase.Constanta">
+             x:Class="TuristRO.Views.Orase.Constanta" Title="Constanța">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
 
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
-                    <Label Text="Bun venit în Constanta!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
+                    <Label Text="Bun venit în Constanța!" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="constanta.jpg" />
                     <Label Text="" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
@@ -32,27 +30,27 @@
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                    
+
                     <Label Text="Delfinariul Constanța" FontAttributes="Bold"/>
                     <Image Source="delfinariu.jpg" />
                     <Label Text="Delfinariul din Constanța atrage curioși pe tot parcursul anului, fiind cel mai vizitat obiectiv turistic din oraș. Așezat la intersecția bulevardului Mamaia cu strada Soveja, Delfinariul a fost deschis pentru prima dată publicului pe 1 iunie 1972, fiind la vremea respectivă primul muzeu de acest tip din România și din sud-estul Europei. Locul rămâne unic în țară și astăzi pentru spectacolele excepționale cu delfini, lei de mare sau pinguini."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-                    
+
                     <Label Text="Planetariul Constanța" FontAttributes="Bold"/>
                     <Image Source="planetariu.jpg" />
                     <Label Text="Dacă ești pasionat de univers și tainele sale, trebuie neapărat să vizitezi și Planetariul din Constanța. Vei putea observa corpuri cerești din Calea Lactee sau din alte galaxii, vei fi uimit să vezi cum arată mai de aproape luna, un meteorit sau stele despre care nici nu știai că există. Constanța este, înainte de toate, un oraș plin de istorie și obiective turistice cel puțin interesante, așa că data viitoare când ajungi pe litoral, rezervă-ți câteva ore și pentru o vizită a urbei de la malul mării."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                   
+
                     <Label Text="Acvariul Constanța" FontAttributes="Bold"/>
                     <Image Source="acvariu2.jpg" />
                     <Label Text="Amplasat față în față cu Cazinoul, acesta este o expoziție permanentă de faună și floră acvatică. Inaugurată la 1 mai 1958, clădirea a fost prima cu această destinație din România și a găzduit sute de evenimente dedicate viețuitoarelor din adâncuri. Acvariul este structurat pe trei secții, Marina, care este și cea mai mare, cu exemplare de pești și nevertebrate din Marea Neagră, Dulcicola și Pești Exotici."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
 
-                   
+
                     <Label Text="Farul Genovez" FontAttributes="Bold"/>
                     <Image Source="genovez.jpg" />
                     <Label Text="Dacă te-ai plimbat măcar o dată pe faleza din Constanța, sigur ai mers pe lângă Farul Genovez, care, deși este un obiectiv important, poate trece neobservat. Amplasat între Cazino și fostul Hotel Carol, astăzi Comandamentul Marinei, Farul Genovez și-a primit numele în semn de respect pentru genovezi, care sunt considerați a fi stăpânitori ai mărilor, nicidecum nu a fost construit de italieni."
@@ -64,5 +62,4 @@
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

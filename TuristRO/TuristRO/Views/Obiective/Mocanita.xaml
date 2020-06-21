@@ -4,29 +4,21 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Obiective.Mocanita">
+             x:Class="TuristRO.Views.Obiective.Mocanita" Title="Mocănița">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Mocănița de pe Valea Vaserului, județul Maramureș" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="mocanita2.jpg" />
                     <Label Text="" />
-
-
-
                     <Label Text=" Unde si cand?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text="De luni până sâmbătă, din mai și până în octombrie, de 84 de ani, locomotiva Mocănița străbate aceeași 21,6 kilometri între Vișeu și Paltin pentru a transporta lemne și pentru a încânta turiști. "
                     HorizontalTextAlignment="Start" />
-
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Despre Mocanita.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
@@ -34,23 +26,14 @@
                     <Label Text="Una dintre cele mai importante valori culturale şi tehnice ale țării, Mocănița de la Vişeu de Sus este ultima cale ferată forestieră cu abur din Europa care încă mai este folosită pentru transportul lemnului. Construită ca şi soluție tehnică mai facilă pentru transportul materialului lemnos decât cel pe apă, calea ferată forestieră funcționează şi astăzi, atât pentru rolul inițial, cât şi pentru transportul turiştilor."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Label Text=" Ce descoperim pe traseu?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="mocanita4.jpg" />
                     <Label Text="Valea Vaserului, care măsoară 50 km din Vişeul de Sus până la staţia terminală Comanu, este o vale de o sălbăticie fermecătoare. Traseul Mocăniței pornește de la altitudinea de 400 metri, stația CFF Viseu de Sus și străbate pădurile virgine de-a lungul râului Vaser, traversând poduri și sfredelind tuneluri, printr-o zonă împădurită greu accesibilă, unde nu există drumuri de acces sau așezări omenești și unde animalele sălbatice sunt la ele acasă."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-
-
-
-
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

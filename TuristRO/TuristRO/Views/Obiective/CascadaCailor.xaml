@@ -4,29 +4,21 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Obiective.CascadaCailor">
+             x:Class="TuristRO.Views.Obiective.CascadaCailor" Title="Cascada Cailor">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Cascada Cailor, Munții Rodnei" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="cascadacailor.jpg" />
                     <Label Text="" />
-
-                
-                   
                     <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
-
                     <Label Text="La o aruncătură de băț de stațiunea Borșa (iar când citești asta, în minte ți se aciuează sigur Vârful Rodnei din apropiere și momentele de strădanie infantilă când încercai să-i memorezi înălțimea), apele pe care zăpada și ploile le adună cu sârguință într-un circ glaciar, se răsfrâng cu tot elanul peste Podul Cailor. "
                     HorizontalTextAlignment="Start" />
-
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Label Text=" Ce descoperi acolo?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
@@ -35,7 +27,6 @@
 Iar zgomotul apei ce cade în trepte aduce cu el o liniște cerebrală. Ca și cum gândurile nu s-ar mai auzi pentru că tu nu ai mai fi deloc capabil să le legi firul și numai apa și-ar mai putea croi loc printre cotloanele minții."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Label Text=" Cum ajungem acolo?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="cascadacailor.jpg" />
                     <Label Text="Reușește să dea naștere celei mai mari cascade de pe întinsul României care, privită de jos către înaltul celor 90 de metri ai săi, îți pare ca și cum cerul s-a deschis și aruncă de acolo șuvoaie argintii peste Pâmântul fără de-apărare.
@@ -43,14 +34,8 @@ Iar zgomotul apei ce cade în trepte aduce cu el o liniște cerebrală. Ca și c
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-
-
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

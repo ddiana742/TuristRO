@@ -20,8 +20,6 @@ namespace TuristRO.Meniu
             InitializeComponent();
             BindingContext = new ObiectiveViewModel();
         }
-
-    
         //bara de cautare in functie de nume
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {

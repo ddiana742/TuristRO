@@ -4,55 +4,36 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TuristRO.Views.Obiective.SfantaAna">
+             x:Class="TuristRO.Views.Obiective.SfantaAna" Title="Lacul Sfânta Ana">
     <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="16,20,16,40" Spacing="10" BackgroundColor="Beige">
                     <Label Text="Lacul Sfanta Ana, județul Harghita" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="WhiteSmoke" />
                     <Image Source="sfana2.jpg" />
                     <Label Text="" />
-
-
-
-                   
-
                     <Label Text="Nu zicem doar că, ajuns aici, te vei putea scălda în singurul lac vulcanic din Europa Centrală, aflat la aproape 1000 de metri altitudine, pentru că dacă știi despre ce vorbim, ne vei da dreptate când spunem că o călătorie în Ținutul Secuiesc echivalează cu o călătorie peste graniță."
                     HorizontalTextAlignment="Start" />
- <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
+                    <Label Text=" Unde o gasim?" FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Label Text="Lacul Sfânta Ana se găsește la aproximativ 17 kilometri de Băile Tușnad și este singurul lac vulcanic de pe teritoriul României. Acesta s-a format pe fundul craterului vulcanului stins din Masivul Ciomatu." HorizontalTextAlignment="Center" />
                     <Button Text="Navighează" Clicked="Button_Clicked" ImageSource="navigheaza.png"/>
-                    
                     <Label Text=" Scurt Istoric.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="sfana3.jpg" />
                     <Label Text="Referitor la ultima erupție a vulcanului părerile diferă, însă aceasta a avut loc cam cu 30.000 – 40.000 de ani în urmă. După această ultimă erupție în craterul vulcanului s-a strâns apa din precipitații și așa s-a ajuns la apariția lacului."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
-
                     <Label Text=" Despre atmosfera.." FontSize="Medium" FontAttributes="Bold" BackgroundColor="WhiteSmoke"   />
                     <Image Source="dsfana4.jpg" />
-                   
-               
                     <Label Text="Lacul are și câteva motive pentru care oamenii să-și pună semne de întrebare. Cum ar fi că nivelul apei nu scade niciodată chiar dacă lacul nu are izvoare, fiind alimentat doar de precipitații. Puritatea apei este foarte asemănătoare cu apa distilată. Locuitorii nu au nevoie de prognoze meteo deoarece în muntele de lângă lac există două fisuri și aceștia spun că dacă vine ploaia aerul emanat de acelea pișcă la nas. Acest eveniment a fost demonstrat științific și a reieșit faptul că în zonă există o activitate post – vulcanică sensibilă la schimbarea atmosferică. O presiune scăzută duce la urcarea bioxidului de carbon și a sulfului spre suprafață."
                     HorizontalTextAlignment="Start" />
                     <Label Text="" HorizontalTextAlignment="Center" />
                     <Button Text="Notează favoritele" Clicked="Button_Clicked_1" Margin="15,15,15,15"/>
-
-
-
-
-
-
                 </StackLayout>
             </ScrollView>
         </Grid>
     </ScrollView>
-
 </ContentPage>

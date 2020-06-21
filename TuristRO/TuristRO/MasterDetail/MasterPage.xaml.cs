@@ -35,15 +35,6 @@ namespace TuristRO.MasterDetail
             App.MasterDet.IsPresented = false;
             await App.MasterDet.Detail.Navigation.PushAsync(new Evenimente());
         }
-
-        private async void btnLogOut(object sender, EventArgs e)
-        {
-            App.MasterDet.IsPresented = false;
-            await App.MasterDet.Detail.Navigation.PushAsync(new LogOut());
-        }
-
-      
-
         private async void favorite_Clicked(object sender, EventArgs e)
         {
             App.MasterDet.IsPresented = false;
